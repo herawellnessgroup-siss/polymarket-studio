@@ -8,14 +8,13 @@
    puis solde la position quand Polymarket a tranché.
 Aucun argent réel, aucun ordre passé : lecture seule.
 """
+from broker import run_broker
 import json, math, os, re, sys, urllib.request, urllib.parse
 from datetime import datetime, timezone, date
 
 API = "https://gamma-api.polymarket.com/markets"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
-MISE_BASE = 100
-FACTEUR = {"Faible": 1, "Modéré": 0.5, "Élevé": 0.25}
 
 THEMES = [
     ("Élections US", r"midterm|senate|house|governor|balance of power|presidential|nomination|NC-\d"),
@@ -101,7 +100,18 @@ def score_market(m, today):
     if re.search(r"consensus of credible reporting|sole discretion|ambigu", m.get("description") or "", re.I): pts += 1
     if theme == "Sport & esport": pts += 1
     risque = "Élevé" if pts >= 4 else "Modéré" if pts >= 2 else "Faible"
-    return dict(id=str(m["id"]), question=m.get("question"), theme=theme, slug=ev.get("slug") or m.get("slug"),
+    comp = dict(liquidite=round(30 * lg(liq, 1e4, 5e6)), volume=round(20 * lg(v24, 1e4, 2e6)),
+                acceleration=round(20 * min(acc / 3, 1)), mouvement=round(15 * min(abs(d1) / 0.1, 1)), zone=round(15 * zone))
+    why = []
+    if jours > 180: why.append(f"argent bloqué {jours} j")
+    elif jours > 60: why.append(f"résolution dans {jours} j")
+    if jours <= 2: why.append("se joue sous 48 h")
+    if min(p, 1 - p) < 0.1 and not joue: why.append("cote extrême")
+    if abs(w1) >= 0.15 or abs(d1) >= 0.1: why.append("cote très volatile")
+    if spread > 0.02: why.append(f"écart {round(spread*100)} pts")
+    if liq < 50000: why.append("liquidité faible")
+    if theme == "Sport & esport": why.append("aléa sportif")
+    return dict(composantes=comp, raisons_risque=why, id=str(m["id"]), question=m.get("question"), theme=theme, slug=ev.get("slug") or m.get("slug"),
                 prix_oui=p, favori="OUI" if p >= 0.5 else "NON", cote_favori=fav, jours=jours, fin=end,
                 liquidite=round(liq), volume_24h=round(v24), acceleration=round(acc, 2),
                 var_24h=d1, var_7j=w1, score=score, note=note, risque=risque, joue=joue)
@@ -133,56 +143,8 @@ def main():
             f.write(json.dumps({"at": ts, "id": r["id"], "prix_oui": r["prix_oui"], "volume_24h": r["volume_24h"],
                                 "score": r["score"], "note": r["note"], "risque": r["risque"]}) + "\n")
 
-    # 2. portefeuille fictif : ouvertures
-    ppath = os.path.join(DATA, "paper", "positions.json")
-    pos = load(ppath, [])
-    held = {p["id"] for p in pos}
-    # un seul pari par événement (élection, match…) : ses marchés sont liés,
-    # miser sur plusieurs reviendrait à doubler la même mise
-    events = {p["slug"] for p in pos if p["statut"] == "ouvert"}
-    for r in rows:
-        if r["note"] in ("A", "B") and not r["joue"] and r["jours"] >= 1 and r["id"] not in held and r["slug"] not in events:
-            mise = MISE_BASE * FACTEUR[r["risque"]]
-            pos.append(dict(id=r["id"], question=r["question"], theme=r["theme"], slug=r["slug"],
-                            pari=r["favori"], prix_entree=round(r["cote_favori"], 4),
-                            mise=mise, gain_potentiel=round(mise * (1 / r["cote_favori"] - 1), 2),
-                            note=r["note"], risque=r["risque"], ouvert_le=ts, fin=r["fin"],
-                            statut="ouvert", resultat=None, pnl=None, solde_le=None))
-            held.add(r["id"])
-            events.add(r["slug"])
-
-    # 3. portefeuille fictif : soldes des marchés tranchés
-    ouverts = [p for p in pos if p["statut"] == "ouvert"]
-    if ouverts and not os.environ.get("PM_FIXTURE"):
-        etat = {str(m["id"]): m for m in fetch_by_ids(p["id"] for p in ouverts)}
-        for p in ouverts:
-            m = etat.get(p["id"])
-            if not m or not m.get("closed"):
-                continue
-            try:
-                yes = float(json.loads(m.get("outcomePrices") or "[]")[0])
-            except Exception:
-                continue
-            if 0.02 < yes < 0.98:
-                continue  # pas encore tranché net
-            gagnant = "OUI" if yes >= 0.98 else "NON"
-            win = gagnant == p["pari"]
-            p.update(statut="soldé", resultat="gagné" if win else "perdu",
-                     pnl=p["gain_potentiel"] if win else -p["mise"], solde_le=ts)
-    save(ppath, pos)
-
-    # 4. synthèse
-    soldes = [p for p in pos if p["statut"] == "soldé"]
-    mise_soldee = sum(p["mise"] for p in soldes)
-    pnl = sum(p["pnl"] for p in soldes)
-    save(os.path.join(DATA, "paper", "summary.json"), {
-        "at": ts, "positions": len(pos), "ouvertes": len(pos) - len(soldes), "soldees": len(soldes),
-        "gagnees": sum(1 for p in soldes if p["resultat"] == "gagné"),
-        "mise_engagee": sum(p["mise"] for p in pos if p["statut"] == "ouvert"),
-        "mise_soldee": mise_soldee, "pnl": round(pnl, 2),
-        "roi": round(pnl / mise_soldee, 4) if mise_soldee else None,
-    })
-    print(f"{ts} — {len(rows)} marchés notés, {len(pos)} positions fictives ({len(soldes)} soldées, P&L {pnl:+.2f} $)")
+    run_broker(rows, ts, today)
+    print(f"{ts} — {len(rows)} marchés notés")
 
 
 if __name__ == "__main__":
