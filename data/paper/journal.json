@@ -1,0 +1,200 @@
+[
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "562830",
+  "marche": "2026 Balance of Power: R Senate, D House",
+  "pari": "NON",
+  "prix": 0.735,
+  "montant": -300.0,
+  "pnl": null,
+  "detail": "Note A (79/100) : liquidité 30/30, volume 14/20, accélération 20/20 (×3.1), mouvement 0/15, zone de cote 15/15. Favori NON à 73.5 %. Risque faible. Mise 3 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "562802",
+  "marche": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+  "pari": "OUI",
+  "prix": 0.925,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note A (78/100) : liquidité 30/30, volume 20/20, accélération 20/20 (×3.17), mouvement 1/15, zone de cote 6/15. Favori OUI à 92.5 %. Risque modéré (cote extrême). Mise 1.5 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6280238",
+  "marche": "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage",
+  "pari": "OUI",
+  "prix": 0.815,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (74/100) : liquidité 22/30, volume 14/20, accélération 20/20 (×6.21), mouvement 3/15, zone de cote 15/15. Favori OUI à 81.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-30."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "630964",
+  "marche": "Will the Republicans win the Texas Senate race in 2026?",
+  "pari": "NON",
+  "prix": 0.705,
+  "montant": -300.0,
+  "pnl": null,
+  "detail": "Note B (71/100) : liquidité 21/30, volume 15/20, accélération 17/20 (×2.52), mouvement 3/15, zone de cote 15/15. Favori NON à 70.5 %. Risque faible. Mise 3 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "630806",
+  "marche": "Will the Republicans win the Michigan Senate race in 2026?",
+  "pari": "NON",
+  "prix": 0.725,
+  "montant": -300.0,
+  "pnl": null,
+  "detail": "Note B (71/100) : liquidité 18/30, volume 13/20, accélération 20/20 (×3.96), mouvement 4/15, zone de cote 15/15. Favori NON à 72.5 %. Risque faible. Mise 3 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "562794",
+  "marche": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+  "pari": "NON",
+  "prix": 0.675,
+  "montant": -300.0,
+  "pnl": null,
+  "detail": "Note B (67/100) : liquidité 30/30, volume 12/20, accélération 9/20 (×1.33), mouvement 1/15, zone de cote 15/15. Favori NON à 67.5 %. Risque faible. Mise 3 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6075679",
+  "marche": "Grizzlies vs. Trail Blazers",
+  "pari": "NON",
+  "prix": 0.725,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (66/100) : liquidité 15/30, volume 13/20, accélération 20/20 (×6.94), mouvement 3/15, zone de cote 15/15. Favori NON à 72.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-30."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6280278",
+  "marche": "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
+  "pari": "OUI",
+  "prix": 0.785,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (64/100) : liquidité 17/30, volume 10/20, accélération 20/20 (×4.38), mouvement 1/15, zone de cote 15/15. Favori OUI à 78.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-31."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6326884",
+  "marche": "Guayaquil: Diego Dedura-Palomero vs Valerio Aboian",
+  "pari": "NON",
+  "prix": 0.9355,
+  "montant": -50.0,
+  "pnl": null,
+  "detail": "Note B (63/100) : liquidité 13/30, volume 10/20, accélération 20/20 (×7.0), mouvement 15/15, zone de cote 5/15. Favori NON à 93.5 %. Risque élevé (cote extrême, cote très volatile, aléa sportif). Mise 0.5 % du capital. Tranché d'ici le 2026-11-05."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6051332",
+  "marche": "Will Bitcoin reach $82,500 in October?",
+  "pari": "NON",
+  "prix": 0.675,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (63/100) : liquidité 8/30, volume 10/20, accélération 15/20 (×2.23), mouvement 15/15, zone de cote 15/15. Favori NON à 67.5 %. Risque modéré (cote très volatile). Mise 1.5 % du capital. Tranché d'ici le 2026-11-01."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6280178",
+  "marche": "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+  "pari": "NON",
+  "prix": 0.755,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (63/100) : liquidité 18/30, volume 10/20, accélération 20/20 (×4.56), mouvement 0/15, zone de cote 15/15. Favori NON à 75.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-30."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "629690",
+  "marche": "Will the Democrats win the Texas governor race in 2026?",
+  "pari": "NON",
+  "prix": 0.65,
+  "montant": -300.0,
+  "pnl": null,
+  "detail": "Note B (63/100) : liquidité 14/30, volume 9/20, accélération 20/20 (×3.36), mouvement 5/15, zone de cote 15/15. Favori NON à 65.0 %. Risque faible. Mise 3 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "634974",
+  "marche": "Will Dan Sullivan win the Alaska Senate race in 2026?",
+  "pari": "NON",
+  "prix": 0.71,
+  "montant": -300.0,
+  "pnl": null,
+  "detail": "Note B (63/100) : liquidité 17/30, volume 8/20, accélération 20/20 (×3.02), mouvement 3/15, zone de cote 15/15. Favori NON à 71.0 %. Risque faible. Mise 3 % du capital. Tranché d'ici le 2026-11-04."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "5686980",
+  "marche": "US x Iran ceasefire continues through November 8?",
+  "pari": "OUI",
+  "prix": 0.765,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (62/100) : liquidité 9/30, volume 13/20, accélération 20/20 (×4.78), mouvement 5/15, zone de cote 15/15. Favori OUI à 76.5 %. Risque modéré (cote très volatile). Mise 1.5 % du capital. Tranché d'ici le 2026-11-09."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6369764",
+  "marche": "Swiss Indoors Basel: Novak Djokovic vs Jan-Lennard Struff",
+  "pari": "OUI",
+  "prix": 0.865,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (62/100) : liquidité 17/30, volume 12/20, accélération 20/20 (×7.0), mouvement 0/15, zone de cote 13/15. Favori OUI à 86.5 %. Risque modéré (aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-11-05."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "5406659",
+  "marche": "Bruins vs. Blues",
+  "pari": "NON",
+  "prix": 0.505,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (61/100) : liquidité 15/30, volume 10/20, accélération 20/20 (×6.96), mouvement 0/15, zone de cote 15/15. Favori NON à 50.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-30."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6071106",
+  "marche": "Kings vs. Pelicans",
+  "pari": "NON",
+  "prix": 0.685,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (61/100) : liquidité 16/30, volume 9/20, accélération 20/20 (×6.88), mouvement 1/15, zone de cote 15/15. Favori NON à 68.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-30."
+ },
+ {
+  "at": "2026-10-29T19:38:47Z",
+  "action": "ENTRÉE",
+  "id": "6353738",
+  "marche": "Cavaliers vs. Hawks: O/U 237.5",
+  "pari": "NON",
+  "prix": 0.505,
+  "montant": -150.0,
+  "pnl": null,
+  "detail": "Note B (60/100) : liquidité 13/30, volume 11/20, accélération 20/20 (×7.0), mouvement 1/15, zone de cote 15/15. Favori NON à 50.5 %. Risque modéré (se joue sous 48 h, aléa sportif). Mise 1.5 % du capital. Tranché d'ici le 2026-10-30."
+ }
+]
