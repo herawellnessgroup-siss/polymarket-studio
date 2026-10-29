@@ -137,8 +137,11 @@ def main():
     ppath = os.path.join(DATA, "paper", "positions.json")
     pos = load(ppath, [])
     held = {p["id"] for p in pos}
+    # un seul pari par événement (élection, match…) : ses marchés sont liés,
+    # miser sur plusieurs reviendrait à doubler la même mise
+    events = {p["slug"] for p in pos if p["statut"] == "ouvert"}
     for r in rows:
-        if r["note"] in ("A", "B") and not r["joue"] and r["jours"] >= 1 and r["id"] not in held:
+        if r["note"] in ("A", "B") and not r["joue"] and r["jours"] >= 1 and r["id"] not in held and r["slug"] not in events:
             mise = MISE_BASE * FACTEUR[r["risque"]]
             pos.append(dict(id=r["id"], question=r["question"], theme=r["theme"], slug=r["slug"],
                             pari=r["favori"], prix_entree=round(r["cote_favori"], 4),
@@ -146,6 +149,7 @@ def main():
                             note=r["note"], risque=r["risque"], ouvert_le=ts, fin=r["fin"],
                             statut="ouvert", resultat=None, pnl=None, solde_le=None))
             held.add(r["id"])
+            events.add(r["slug"])
 
     # 3. portefeuille fictif : soldes des marchés tranchés
     ouverts = [p for p in pos if p["statut"] == "ouvert"]
