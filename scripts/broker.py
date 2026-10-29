@@ -14,7 +14,7 @@ Prix = dernier prix affiché ; frais et glissement non comptés.
 import json, os, urllib.parse, urllib.request
 from datetime import date
 
-CAPITAL_INITIAL = 10_000
+CAPITAL_INITIAL = 1_000
 DEBUT = "2026-10-30"
 FIN = "2026-11-30"
 TAILLE = {"Faible": 0.03, "Modéré": 0.015, "Élevé": 0.005}
