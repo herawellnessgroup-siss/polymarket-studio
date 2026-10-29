@@ -2,17 +2,21 @@
 
 Règles (écrites ici, appliquées à chaque passage horaire) :
 - Capital de départ : CAPITAL_INITIAL $ fictifs. Test du DEBUT à FIN.
-- ENTRÉE : marché noté A ou B, pas joué d'avance, qui se tranche avant la fin du test,
-  un seul pari par événement. Mise sur le favori : 3 % du capital (risque faible),
-  1,5 % (modéré), 0,5 % (élevé). Plafonds : 60 % du capital engagé au total,
-  25 % par thème. Pas de nouvelle entrée après la fin du test.
+- ENTRÉE : uniquement sur avis de recherche (data/research/avis.json) de moins de 48 h :
+  Claude a croisé les sources (presse, sondages, données officielles, stats) et estimé
+  sa propre probabilité. On entre seulement si cette probabilité dépasse la cote du marché
+  d'au moins AVANTAGE_MIN (5 points), sur un marché qui se tranche avant la fin du test,
+  un seul pari par événement. Mise : 3 % du capital (risque faible), 1,5 % (modéré),
+  0,5 % (élevé), multipliée par la confiance de l'avis (×0,5 / ×1 / ×1,5).
+  Plafonds : 60 % du capital engagé au total, 25 % par thème.
+- AVIS RÉVISÉ : si un nouvel avis dit « sortir » sur une position ouverte, on solde au prix du marché.
 - SORTIE ANTICIPÉE : prise de bénéfice dès que la position a capté 60 % de son gain
   potentiel ; stop-loss si elle a perdu 50 % de la mise.
 - RÉSOLUTION : quand Polymarket tranche, la position paie 1 $ par part si le pari est juste, 0 sinon.
 Prix = dernier prix affiché ; frais et glissement non comptés.
 """
 import json, os, urllib.parse, urllib.request
-from datetime import date
+from datetime import date, datetime, timezone
 
 CAPITAL_INITIAL = 1_000
 DEBUT = "2026-10-30"
@@ -20,6 +24,9 @@ FIN = "2026-11-30"
 TAILLE = {"Faible": 0.03, "Modéré": 0.015, "Élevé": 0.005}
 PLAFOND_TOTAL, PLAFOND_THEME = 0.60, 0.25
 PRISE_BENEF, STOP = 0.60, 0.50
+AVANTAGE_MIN = 0.05
+AVIS_MAX_HEURES = 48
+CONFIANCE = {1: 0.5, 2: 1.0, 3: 1.5}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(ROOT, "data", "paper")
@@ -52,6 +59,11 @@ def _save(name, obj):
         json.dump(obj, f, ensure_ascii=False, indent=1)
 
 
+def _load_research():
+    path = os.path.join(ROOT, "data", "research", "avis.json")
+    return json.load(open(path)) if os.path.exists(path) else []
+
+
 def usd(x):
     return f"{x:,.0f} $".replace(",", " ")
 
@@ -62,6 +74,8 @@ def run_broker(rows, ts, today):
     journal = _load("journal.json", [])
     equity = _load("equity.json", [])
     by_id = {r["id"]: r for r in rows}
+    avis = {str(a["id"]): a for a in _load_research()}
+    now = datetime.now(timezone.utc)
 
     def log(action, p, detail, montant=None, pnl=None):
         journal.append(dict(at=ts, action=action, id=p["id"], marche=p["question"], pari=p["pari"],
@@ -92,7 +106,10 @@ def run_broker(rows, ts, today):
                 log("RÉSOLUTION", p, f"Polymarket a tranché : pari {'juste' if win else 'perdu'}.", round(retour, 2), p["pnl"])
                 continue
             gain_pot = p["parts"] - p["mise"]
-            if p["pnl_latent"] >= PRISE_BENEF * gain_pot and gain_pot > 0:
+            av = avis.get(p["id"])
+            if av and av.get("verdict") == "sortir" and av.get("at", "") > p["ouvert_le"]:
+                raison = "Avis révisé après recherche : " + av.get("resume", "")
+            elif p["pnl_latent"] >= PRISE_BENEF * gain_pot and gain_pot > 0:
                 raison = f"Prise de bénéfice : {p['pnl_latent']:+.0f} $ déjà captés sur {gain_pot:.0f} $ possibles (seuil {int(PRISE_BENEF*100)} %)."
             elif p["pnl_latent"] <= -STOP * p["mise"]:
                 raison = f"Stop-loss : la position a perdu {-p['pnl_latent']:.0f} $ sur {p['mise']:.0f} $ misés (seuil {int(STOP*100)} %)."
@@ -115,25 +132,39 @@ def run_broker(rows, ts, today):
         par_theme = {}
         for p in ouvertes:
             par_theme[p["theme"]] = par_theme.get(p["theme"], 0) + p["mise"]
-        for r in rows:  # déjà triés du meilleur score au moins bon
-            if r["note"] not in ("A", "B") or r["joue"] or r["jours"] < 1 or r["id"] in held or r["slug"] in events:
+        for r in rows:
+            av = avis.get(r["id"])
+            if not av or av.get("verdict") not in ("OUI", "NON"):
+                continue
+            try:
+                age = (now - datetime.fromisoformat(av["at"].replace("Z", "+00:00"))).total_seconds() / 3600
+            except Exception:
+                continue
+            if age > AVIS_MAX_HEURES or r["joue"] or r["jours"] < 1 or r["id"] in held or r["slug"] in events:
                 continue
             if date.fromisoformat(r["fin"]) > date.fromisoformat(FIN):
                 continue
-            mise = round(valeur * TAILLE[r["risque"]], 2)
+            cote_oui = r["prix_oui"]
+            prix = cote_oui if av["verdict"] == "OUI" else 1 - cote_oui
+            proba = float(av["proba_oui"]) if av["verdict"] == "OUI" else 1 - float(av["proba_oui"])
+            avantage = proba - prix
+            if avantage < AVANTAGE_MIN or prix <= 0.02 or prix >= 0.98:
+                continue
+            conf = int(av.get("confiance", 2))
+            mise = round(valeur * TAILLE[r["risque"]] * CONFIANCE.get(conf, 1.0), 2)
             if engage + mise > PLAFOND_TOTAL * valeur or par_theme.get(r["theme"], 0) + mise > PLAFOND_THEME * valeur or mise > state["cash"]:
                 continue
-            prix = r["cote_favori"]
-            c = r["composantes"]
-            pourquoi = (f"Note {r['note']} ({r['score']}/100) : liquidité {c['liquidite']}/30, volume {c['volume']}/20, "
-                        f"accélération {c['acceleration']}/20 (×{r['acceleration']}), mouvement {c['mouvement']}/15, zone de cote {c['zone']}/15. "
-                        f"Favori {r['favori']} à {prix*100:.1f} %. Risque {r['risque'].lower()}"
+            sources = av.get("sources", [])
+            pourquoi = (f"Recherche : {av.get('resume', '')} Ma probabilité {proba*100:.0f} % contre {prix*100:.1f} % pour le marché, "
+                        f"soit un avantage de {avantage*100:.1f} points. Confiance {conf}/3. Risque {r['risque'].lower()}"
                         + (f" ({', '.join(r['raisons_risque'])})" if r["raisons_risque"] else "")
-                        + f". Mise {TAILLE[r['risque']]*100:g} % du capital. Tranché d'ici le {r['fin']}.")
-            p = dict(id=r["id"], question=r["question"], theme=r["theme"], slug=r["slug"], pari=r["favori"],
+                        + f". Mise {TAILLE[r['risque']]*CONFIANCE.get(conf, 1.0)*100:g} % du capital. Note marché {r['note']} ({r['score']}/100). "
+                        + f"Sources : {len(sources)}.")
+            p = dict(id=r["id"], question=r["question"], theme=r["theme"], slug=r["slug"], pari=av["verdict"],
                      prix_entree=round(prix, 4), prix_actuel=round(prix, 4), mise=mise, parts=round(mise / prix, 4),
                      gain_potentiel=round(mise / prix - mise, 2), valeur=mise, pnl_latent=0.0,
                      note=r["note"], score=r["score"], risque=r["risque"], pourquoi=pourquoi,
+                     proba_estimee=round(proba, 3), avantage=round(avantage, 3), confiance=conf, sources=sources,
                      ouvert_le=ts, fin=r["fin"], statut="ouvert", sortie=None, resultat=None, pnl=None, ferme_le=None)
             pos.append(p)
             state["cash"] -= mise
