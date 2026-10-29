@@ -1,0 +1,160 @@
+[
+ {
+  "id": "630963",
+  "question": "Will the Democrats win the Texas Senate race in 2026?",
+  "theme": "Élections US",
+  "slug": "texas-senate-election-winner",
+  "pari": "NON",
+  "prix_entree": 0.295,
+  "prix_actuel": 0.295,
+  "mise": 30.0,
+  "parts": 101.6949,
+  "gain_potentiel": 71.69,
+  "valeur": 30.0,
+  "pnl_latent": 0.0,
+  "note": "B",
+  "score": 72,
+  "risque": "Faible",
+  "pourquoi": "Recherche : Talarico (D) ne mène Paxton (R) que de 1,8 pt (RCP, 8-21/10) à 2,5 pts (Silver Bulletin, 29/10), avec Fox 49-49 et Rasmussen 45-45 ; Cook, Sabato et Inside Elections notent la course Toss-up et le modèle DDHQ (28/10) ne donne que 57 % à Talarico. Les sondages texans ont sous-estimé les R en 2020 et 2024 et aucun D n'a gagné un scrutin d'État depuis 1994. À 70,5 %, le marché paie trop cher une avance dans la marge d'erreur. Ma probabilité 40 % contre 29.5 % pour le marché, soit un avantage de 10.5 points. Confiance 2/3. Risque faible. Mise 3 % du capital. Note marché B (72/100). Sources : 6.",
+  "proba_estimee": 0.4,
+  "avantage": 0.105,
+  "confiance": 2,
+  "sources": [
+   {
+    "titre": "RCP – Texas Senate Talarico vs Paxton",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton"
+   },
+   {
+    "titre": "DDHQ – Texas Senate forecast",
+    "url": "https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/forecast"
+   },
+   {
+    "titre": "Newsweek – ce que montrent les sondages à une semaine",
+    "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879"
+   },
+   {
+    "titre": "Marist – Texas octobre 2026",
+    "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/"
+   },
+   {
+    "titre": "Yahoo – deux sondages en désaccord",
+    "url": "https://www.yahoo.com/news/politics/articles/2-polls-disagree-close-texas-160046061.html"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=630963"
+   }
+  ],
+  "ouvert_le": "2026-10-29T20:06:27Z",
+  "fin": "2026-11-04",
+  "statut": "ouvert",
+  "sortie": null,
+  "resultat": null,
+  "pnl": null,
+  "ferme_le": null
+ },
+ {
+  "id": "634976",
+  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "theme": "Élections US",
+  "slug": "alaska-senate-election-winner",
+  "pari": "NON",
+  "prix_entree": 0.29,
+  "prix_actuel": 0.29,
+  "mise": 15.0,
+  "parts": 51.7241,
+  "gain_potentiel": 36.72,
+  "valeur": 15.0,
+  "pnl_latent": 0.0,
+  "note": "B",
+  "score": 61,
+  "risque": "Faible",
+  "pourquoi": "Recherche : Peltola ne mène Sullivan que de 1,2 pt (RCP, 1-16/10) ; Data for Progress simule 51-49 après vote préférentiel, et DDHQ comme le modèle Dugas la donnent autour de 61 %. Un homonyme (Daniel J. Sullivan, ~4 %) devrait reporter ses voix sur le sénateur, et Peltola avait perdu de 3 pts en 2024 avec des sondages à égalité. Le marché (71 %) et Kalshi (74 %) semblent trop hauts, mais l'écart repose sur peu de sondages, d'où une confiance faible. Ma probabilité 38 % contre 29.0 % pour le marché, soit un avantage de 9.0 points. Confiance 1/3. Risque faible. Mise 1.5 % du capital. Note marché B (61/100). Sources : 6.",
+  "proba_estimee": 0.38,
+  "avantage": 0.09,
+  "confiance": 1,
+  "sources": [
+   {
+    "titre": "RCP – Alaska Senate Sullivan vs Peltola",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
+   },
+   {
+    "titre": "Data for Progress – Alaska (20/10)",
+    "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
+   },
+   {
+    "titre": "Newsweek – plainte du DOJ",
+    "url": "https://www.newsweek.com/alaska-senate-race-judge-ruling-doj-dan-sullivan-mary-peltola-victory-12628398"
+   },
+   {
+    "titre": "Kalshi News – Peltola à 74,5 %",
+    "url": "https://news.kalshi.com/p/alaska-senate-odds-peltola-holds-steady-at-745-following-doj-election-lawsuit"
+   },
+   {
+    "titre": "FairVote – calendrier des résultats en Alaska",
+    "url": "https://fairvote.org/when-should-we-expect-alaska-results/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=634976"
+   }
+  ],
+  "ouvert_le": "2026-10-29T20:06:27Z",
+  "fin": "2026-11-04",
+  "statut": "ouvert",
+  "sortie": null,
+  "resultat": null,
+  "pnl": null,
+  "ferme_le": null
+ },
+ {
+  "id": "648383",
+  "question": "Billionaire one-time wealth tax passes in California election 2026?",
+  "theme": "Divers",
+  "slug": "billionaire-one-time-wealth-tax-passes-in-california-election-2026",
+  "pari": "NON",
+  "prix_entree": 0.755,
+  "prix_actuel": 0.755,
+  "mise": 30.0,
+  "parts": 39.7351,
+  "gain_potentiel": 9.74,
+  "valeur": 30.0,
+  "pnl_latent": 0.0,
+  "note": "C",
+  "score": 59,
+  "risque": "Faible",
+  "pourquoi": "Recherche : Le PPIC publié le 27/10 donne la Prop 40 (impôt unique de 5 % sur les fortunes ≥ 1 Md$) à 46 % oui contre 52 % non avec 2 % d'indécis, en recul de 6 pts en un mois ; Berkeley IGS/Politico était passé de 50-28 en février à 45-43 en septembre. Les opposants ont levé plus de 205 M$ et une mesure concurrente (Prop 42) est à 51 %. Une mesure fiscale sous 50 % à une semaine du vote, face à une telle dépense, échoue presque toujours. Ma probabilité 85 % contre 75.5 % pour le marché, soit un avantage de 9.5 points. Confiance 2/3. Risque faible. Mise 3 % du capital. Note marché C (59/100). Sources : 5.",
+  "proba_estimee": 0.85,
+  "avantage": 0.095,
+  "confiance": 2,
+  "sources": [
+   {
+    "titre": "CalMatters – sondage PPIC Prop 40",
+    "url": "https://calmatters.org/newsletter/prop-40-poll/"
+   },
+   {
+    "titre": "The Hill – Berkeley/Politico, recul du soutien",
+    "url": "https://thehill.com/homenews/campaign/6103019-prop-40-support-drops/amp/"
+   },
+   {
+    "titre": "CalMatters – PPIC septembre et Prop 42",
+    "url": "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
+   },
+   {
+    "titre": "rg.org – cotes et PPIC du 29/10",
+    "url": "https://rg.org/news/prediction-markets/polymarket-daily-prop-40-billionaire-tax-la-mayor-lions-super-bowl-october-29-2026"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=648383"
+   }
+  ],
+  "ouvert_le": "2026-10-29T20:06:27Z",
+  "fin": "2026-11-04",
+  "statut": "ouvert",
+  "sortie": null,
+  "resultat": null,
+  "pnl": null,
+  "ferme_le": null
+ }
+]
