@@ -1,109 +1,5 @@
 [
  {
-  "id": "630963",
-  "question": "Will the Democrats win the Texas Senate race in 2026?",
-  "at": "2026-10-29T20:04:25Z",
-  "proba_oui": 0.6,
-  "cote_oui_marche": 0.705,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "Talarico (D) ne mène Paxton (R) que de 1,8 pt (RCP, 8-21/10) à 2,5 pts (Silver Bulletin, 29/10), avec Fox 49-49 et Rasmussen 45-45 ; Cook, Sabato et Inside Elections notent la course Toss-up et le modèle DDHQ (28/10) ne donne que 57 % à Talarico. Les sondages texans ont sous-estimé les R en 2020 et 2024 et aucun D n'a gagné un scrutin d'État depuis 1994. À 70,5 %, le marché paie trop cher une avance dans la marge d'erreur.",
-  "sources": [
-   {
-    "titre": "RCP – Texas Senate Talarico vs Paxton",
-    "url": "https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton"
-   },
-   {
-    "titre": "DDHQ – Texas Senate forecast",
-    "url": "https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/forecast"
-   },
-   {
-    "titre": "Newsweek – ce que montrent les sondages à une semaine",
-    "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879"
-   },
-   {
-    "titre": "Marist – Texas octobre 2026",
-    "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/"
-   },
-   {
-    "titre": "Yahoo – deux sondages en désaccord",
-    "url": "https://www.yahoo.com/news/politics/articles/2-polls-disagree-close-texas-160046061.html"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=630963"
-   }
-  ]
- },
- {
-  "id": "634976",
-  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
-  "at": "2026-10-29T20:04:25Z",
-  "proba_oui": 0.62,
-  "cote_oui_marche": 0.71,
-  "verdict": "NON",
-  "confiance": 1,
-  "resume": "Peltola ne mène Sullivan que de 1,2 pt (RCP, 1-16/10) ; Data for Progress simule 51-49 après vote préférentiel, et DDHQ comme le modèle Dugas la donnent autour de 61 %. Un homonyme (Daniel J. Sullivan, ~4 %) devrait reporter ses voix sur le sénateur, et Peltola avait perdu de 3 pts en 2024 avec des sondages à égalité. Le marché (71 %) et Kalshi (74 %) semblent trop hauts, mais l'écart repose sur peu de sondages, d'où une confiance faible.",
-  "sources": [
-   {
-    "titre": "RCP – Alaska Senate Sullivan vs Peltola",
-    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
-   },
-   {
-    "titre": "Data for Progress – Alaska (20/10)",
-    "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
-   },
-   {
-    "titre": "Newsweek – plainte du DOJ",
-    "url": "https://www.newsweek.com/alaska-senate-race-judge-ruling-doj-dan-sullivan-mary-peltola-victory-12628398"
-   },
-   {
-    "titre": "Kalshi News – Peltola à 74,5 %",
-    "url": "https://news.kalshi.com/p/alaska-senate-odds-peltola-holds-steady-at-745-following-doj-election-lawsuit"
-   },
-   {
-    "titre": "FairVote – calendrier des résultats en Alaska",
-    "url": "https://fairvote.org/when-should-we-expect-alaska-results/"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=634976"
-   }
-  ]
- },
- {
-  "id": "648383",
-  "question": "Billionaire one-time wealth tax passes in California election 2026?",
-  "at": "2026-10-29T20:04:25Z",
-  "proba_oui": 0.15,
-  "cote_oui_marche": 0.245,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "Le PPIC publié le 27/10 donne la Prop 40 (impôt unique de 5 % sur les fortunes ≥ 1 Md$) à 46 % oui contre 52 % non avec 2 % d'indécis, en recul de 6 pts en un mois ; Berkeley IGS/Politico était passé de 50-28 en février à 45-43 en septembre. Les opposants ont levé plus de 205 M$ et une mesure concurrente (Prop 42) est à 51 %. Une mesure fiscale sous 50 % à une semaine du vote, face à une telle dépense, échoue presque toujours.",
-  "sources": [
-   {
-    "titre": "CalMatters – sondage PPIC Prop 40",
-    "url": "https://calmatters.org/newsletter/prop-40-poll/"
-   },
-   {
-    "titre": "The Hill – Berkeley/Politico, recul du soutien",
-    "url": "https://thehill.com/homenews/campaign/6103019-prop-40-support-drops/amp/"
-   },
-   {
-    "titre": "CalMatters – PPIC septembre et Prop 42",
-    "url": "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
-   },
-   {
-    "titre": "rg.org – cotes et PPIC du 29/10",
-    "url": "https://rg.org/news/prediction-markets/polymarket-daily-prop-40-billionaire-tax-la-mayor-lions-super-bowl-october-29-2026"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=648383"
-   }
-  ]
- },
- {
   "id": "629558",
   "question": "Will the Republicans win the Ohio governor race in 2026?",
   "at": "2026-10-29T20:04:25Z",
@@ -292,34 +188,6 @@
   ]
  },
  {
-  "id": "5686980",
-  "question": "US x Iran ceasefire continues through November 8?",
-  "at": "2026-10-29T20:04:25Z",
-  "proba_oui": 0.76,
-  "cote_oui_marche": 0.765,
-  "verdict": "passer",
-  "confiance": 2,
-  "resume": "Le marché ne passe à NON qu'en cas de frappe américaine aérienne ou de missile touchant le sol iranien avant le 8/11 ; aucune depuis début septembre. Mais AP (28/10) rapporte que les alliés du Golfe ont été prévenus de frappes possibles après les midterms et CNN évoque une action possible sous 96 h après un ordre. Risque concentré sur la fenêtre 4-8 novembre, que j'estime ~20-25 % : la cote est juste.",
-  "sources": [
-   {
-    "titre": "OPB/AP – alliés prévenus de frappes après les élections",
-    "url": "https://www.opb.org/article/2026/10/28/us-warns-allies-to-prepare-for-possible-iran-strikes-retaliation-after-elections-ap-sources-say/"
-   },
-   {
-    "titre": "Critical Threats – Iran Update 27/10",
-    "url": "https://www.criticalthreats.org/analysis/iran-update-october-27-2026-6ae139a34d6dc"
-   },
-   {
-    "titre": "Yahoo/Mediaite – Trump « penche » vers des frappes",
-    "url": "https://www.yahoo.com/news/politics/articles/trump-reportedly-leaning-toward-major-113950660.html"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=5686980"
-   }
-  ]
- },
- {
   "id": "6051332",
   "question": "Will Bitcoin reach $82,500 in October?",
   "at": "2026-10-29T20:04:25Z",
@@ -344,6 +212,190 @@
    {
     "titre": "Règles Polymarket (Gamma)",
     "url": "https://gamma-api.polymarket.com/markets?id=6051332"
+   }
+  ]
+ },
+ {
+  "id": "630963",
+  "question": "Will the Democrats win the Texas Senate race in 2026?",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.6,
+  "cote_oui_marche": 0.695,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Nouveau sondage Texas Southern (21-25/10, 2 000 LV) : Talarico 49, Paxton 47, dans la marge d'erreur, cohérent avec Emerson 48-46, Fox 49-49, Marist 47-45. Talarico mène ou égalise partout mais de 2-3 pts en moyenne, avec un historique de sous-estimation des R au Texas et la tournée de Trump pour Paxton non captée. Thèse confirmée : 69,5 % reste trop cher.",
+  "sources": [
+   {
+    "titre": "USA Today/Yahoo – sondage TSU et récapitulatif",
+    "url": "https://www.yahoo.com/news/politics/articles/texas-senate-poll-shows-challenge-170037506.html"
+   },
+   {
+    "titre": "Newsweek – sondages à une semaine",
+    "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879"
+   },
+   {
+    "titre": "Newsweek – vote anticipé record",
+    "url": "https://www.newsweek.com/what-record-breaking-texas-early-voting-says-about-the-talarico-vs-paxton-race-12622094"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=630963"
+   }
+  ]
+ },
+ {
+  "id": "634976",
+  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.62,
+  "cote_oui_marche": 0.705,
+  "verdict": "NON",
+  "confiance": 1,
+  "resume": "Rien de neuf depuis 20 h : Peltola +1,2 pt en moyenne RCP, Data for Progress 51-49 après vote préférentiel, modèles autour de 61 %. Le marché à 70,5 % reste au-dessus des modèles, mais l'écart repose sur peu de sondages. Thèse maintenue, confiance faible.",
+  "sources": [
+   {
+    "titre": "RCP – Sullivan vs Peltola",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
+   },
+   {
+    "titre": "Data for Progress – Alaska (20/10)",
+    "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
+   },
+   {
+    "titre": "FiftyPlusOne – moyenne Alaska",
+    "url": "https://fiftyplusone.news/polls/senate/general/alaska"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=634976"
+   }
+  ]
+ },
+ {
+  "id": "648383",
+  "question": "Billionaire one-time wealth tax passes in California election 2026?",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.14,
+  "cote_oui_marche": 0.245,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "PPIC (16-22/10, 1 086 LV) : Prop. 40 à 46 % oui contre 52 % non, en chute de 6 pts depuis septembre (52 %), y compris chez les démocrates. Plus de 300 M$ dépensés contre ; une mesure sous 50 % à une semaine du vote perd presque toujours. Thèse confirmée.",
+  "sources": [
+   {
+    "titre": "SF Standard – PPIC octobre",
+    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
+   },
+   {
+    "titre": "CPA Practice Advisor – perte de la majorité",
+    "url": "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=648383"
+   }
+  ]
+ },
+ {
+  "id": "5686980",
+  "question": "US x Iran ceasefire continues through November 8?",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.6,
+  "cote_oui_marche": 0.59,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Axios, WSJ et ABC rapportent un plan US-Israël d'environ une semaine de frappes juste après les midterms du 3/11 ; Trump dit « anything is possible » mais n'a pas décidé, et la Maison-Blanche exclut toute frappe avant le 3. La fenêtre utile n'est que 4-8/11, alors que Qatar, Arabie et Pakistan poussent un accord et que Trump a déjà reporté des frappes. Risque réel mais le marché (59 %) l'a déjà intégré : pas d'avantage.",
+  "sources": [
+   {
+    "titre": "Gulf News – plan de frappes d'une semaine (29/10)",
+    "url": "https://gulfnews.com/world/mena/we-need-to-finish-the-job-pressure-mounts-on-iran-as-us-israel-prepare-week-long-strikes-1.500728275"
+   },
+   {
+    "titre": "ABC News – plans post-élection",
+    "url": "https://abcnews.com/Politics/us-israel-drawing-plans-resume-attacks-iran-post/story?id=137479897"
+   },
+   {
+    "titre": "WLT Report – Trump le 28/10",
+    "url": "https://wltreport.com/2026/10/28/trump-iran-strikes-after-midterms-new-war-plan/"
+   },
+   {
+    "titre": "Gulf News – Hormuz et diplomatie (29/10)",
+    "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-iran-warns-israel-against-strikes-1.500727751"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=5686980"
+   }
+  ]
+ },
+ {
+  "id": "4232146",
+  "question": "Will Ra'am win 8 or more seats in the 2026 Knesset elections?",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.99,
+  "cote_oui_marche": 0.979,
+  "verdict": "passer",
+  "confiance": 3,
+  "resume": "Résultats préliminaires de la commission électorale (votes des militaires et doubles enveloppes déjà comptés) : Ra'am à 8 sièges. Seule une révision d'intégrité reste avant l'officialisation mercredi. Quasi joué, avantage d'environ 1 pt seulement.",
+  "sources": [
+   {
+    "titre": "Israel Hayom – résultats 2026",
+    "url": "https://www.israelhayom.com/2026/10/29/israels-2026-election-results-released/"
+   },
+   {
+    "titre": "Arutz Sheva – 91 % dépouillés, Ra'am à 8",
+    "url": "https://www.israelnationalnews.com/flashes/696325"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=4232146"
+   }
+  ]
+ },
+ {
+  "id": "6280278",
+  "question": "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.78,
+  "cote_oui_marche": 0.785,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Match à élimination (les deux à 1-2 en Swiss) le 30/10 à 23 h UTC. Bookmakers 1,20/4,30 (≈78 % sans marge), Kalshi 78 % : tout le monde est aligné sur la cote Polymarket. HLE plus fort sur le papier mais en méforme ; aucun avantage.",
+  "sources": [
+   {
+    "titre": "Strafe – pronostic HLE vs G2",
+    "url": "https://www.strafe.com/esports-betting/news/lol-worlds-2026-swiss-4-predictions-hanwha-life-esports-vs-g2/"
+   },
+   {
+    "titre": "bo3.gg – fiche du match",
+    "url": "https://bo3.gg/lol/matches/hanwha-life-esports-vs-g2-esports-lol-30-10-2026"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=6280278"
+   }
+  ]
+ },
+ {
+  "id": "5170739",
+  "question": "Will Bitcoin dip to $77,500 in October?",
+  "at": "2026-10-29T23:50:31Z",
+  "proba_oui": 0.8,
+  "cote_oui_marche": 0.82,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Le BTC a chuté le 29/10 (liquidations, rumeur de piratage lié à Binance) et les sources divergent sur le niveau actuel (78 000 à 80 300 $). Sans prix en direct fiable et avec deux jours restants, impossible d'estimer mieux que le marché.",
+  "sources": [
+   {
+    "titre": "Yahoo Finance – crypto le 29/10",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-29-214002134.html"
+   },
+   {
+    "titre": "Ted Pillows – rapport du 29/10",
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=5170739"
    }
   ]
  }
