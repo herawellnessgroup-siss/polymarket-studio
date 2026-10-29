@@ -1,1 +1,350 @@
-[]
+[
+ {
+  "id": "630963",
+  "question": "Will the Democrats win the Texas Senate race in 2026?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.6,
+  "cote_oui_marche": 0.705,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Talarico (D) ne mène Paxton (R) que de 1,8 pt (RCP, 8-21/10) à 2,5 pts (Silver Bulletin, 29/10), avec Fox 49-49 et Rasmussen 45-45 ; Cook, Sabato et Inside Elections notent la course Toss-up et le modèle DDHQ (28/10) ne donne que 57 % à Talarico. Les sondages texans ont sous-estimé les R en 2020 et 2024 et aucun D n'a gagné un scrutin d'État depuis 1994. À 70,5 %, le marché paie trop cher une avance dans la marge d'erreur.",
+  "sources": [
+   {
+    "titre": "RCP – Texas Senate Talarico vs Paxton",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton"
+   },
+   {
+    "titre": "DDHQ – Texas Senate forecast",
+    "url": "https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/forecast"
+   },
+   {
+    "titre": "Newsweek – ce que montrent les sondages à une semaine",
+    "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879"
+   },
+   {
+    "titre": "Marist – Texas octobre 2026",
+    "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/"
+   },
+   {
+    "titre": "Yahoo – deux sondages en désaccord",
+    "url": "https://www.yahoo.com/news/politics/articles/2-polls-disagree-close-texas-160046061.html"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=630963"
+   }
+  ]
+ },
+ {
+  "id": "634976",
+  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.62,
+  "cote_oui_marche": 0.71,
+  "verdict": "NON",
+  "confiance": 1,
+  "resume": "Peltola ne mène Sullivan que de 1,2 pt (RCP, 1-16/10) ; Data for Progress simule 51-49 après vote préférentiel, et DDHQ comme le modèle Dugas la donnent autour de 61 %. Un homonyme (Daniel J. Sullivan, ~4 %) devrait reporter ses voix sur le sénateur, et Peltola avait perdu de 3 pts en 2024 avec des sondages à égalité. Le marché (71 %) et Kalshi (74 %) semblent trop hauts, mais l'écart repose sur peu de sondages, d'où une confiance faible.",
+  "sources": [
+   {
+    "titre": "RCP – Alaska Senate Sullivan vs Peltola",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
+   },
+   {
+    "titre": "Data for Progress – Alaska (20/10)",
+    "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
+   },
+   {
+    "titre": "Newsweek – plainte du DOJ",
+    "url": "https://www.newsweek.com/alaska-senate-race-judge-ruling-doj-dan-sullivan-mary-peltola-victory-12628398"
+   },
+   {
+    "titre": "Kalshi News – Peltola à 74,5 %",
+    "url": "https://news.kalshi.com/p/alaska-senate-odds-peltola-holds-steady-at-745-following-doj-election-lawsuit"
+   },
+   {
+    "titre": "FairVote – calendrier des résultats en Alaska",
+    "url": "https://fairvote.org/when-should-we-expect-alaska-results/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=634976"
+   }
+  ]
+ },
+ {
+  "id": "648383",
+  "question": "Billionaire one-time wealth tax passes in California election 2026?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.15,
+  "cote_oui_marche": 0.245,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Le PPIC publié le 27/10 donne la Prop 40 (impôt unique de 5 % sur les fortunes ≥ 1 Md$) à 46 % oui contre 52 % non avec 2 % d'indécis, en recul de 6 pts en un mois ; Berkeley IGS/Politico était passé de 50-28 en février à 45-43 en septembre. Les opposants ont levé plus de 205 M$ et une mesure concurrente (Prop 42) est à 51 %. Une mesure fiscale sous 50 % à une semaine du vote, face à une telle dépense, échoue presque toujours.",
+  "sources": [
+   {
+    "titre": "CalMatters – sondage PPIC Prop 40",
+    "url": "https://calmatters.org/newsletter/prop-40-poll/"
+   },
+   {
+    "titre": "The Hill – Berkeley/Politico, recul du soutien",
+    "url": "https://thehill.com/homenews/campaign/6103019-prop-40-support-drops/amp/"
+   },
+   {
+    "titre": "CalMatters – PPIC septembre et Prop 42",
+    "url": "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
+   },
+   {
+    "titre": "rg.org – cotes et PPIC du 29/10",
+    "url": "https://rg.org/news/prediction-markets/polymarket-daily-prop-40-billionaire-tax-la-mayor-lions-super-bowl-october-29-2026"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=648383"
+   }
+  ]
+ },
+ {
+  "id": "629558",
+  "question": "Will the Republicans win the Ohio governor race in 2026?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.27,
+  "cote_oui_marche": 0.2,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Acton (D) mène Ramaswamy (R) de 3 à 4 pts (PollCheck 48,2-45,0, RCP +4,3, Suffolk +4), Cook et Sabato sont passés Lean D et la pub de Ramaswamy avec la mère d'Acton a fait polémique. Les sondages de l'Ohio ont souvent sous-estimé les R (2018 : DeWine +3,7 malgré des sondages pro-Cordray), ce qui me fait monter à ~27 %. Avantage de 7 pts mais fondé surtout sur ce biais historique : je passe, d'autant que c'est la même thèse que mes NON Texas/Alaska.",
+  "sources": [
+   {
+    "titre": "PollCheck – Ohio Governor",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/ohio"
+   },
+   {
+    "titre": "MultiState – Ohio 2026",
+    "url": "https://www.multistate.us/elections/governor-race/ohio-2026"
+   },
+   {
+    "titre": "Kalshi News – Acton à 68 %",
+    "url": "https://news.kalshi.com/p/ohio-governor-odds-acton-surges-to-68-against-ramaswamy-in-the-ohio"
+   },
+   {
+    "titre": "ABC6 – réactions à la pub Ramaswamy",
+    "url": "https://abc6onyourside.com/news/election/ramaswamy-campaign-ad-featuring-amy-actons-estranged-mother-draws-criticism-from-voters"
+   }
+  ]
+ },
+ {
+  "id": "629691",
+  "question": "Will the Republicans win the Texas governor race in 2026?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.68,
+  "cote_oui_marche": 0.635,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Abbott (R) mène Hinojosa (D) de 2,5 à 3 pts (PollCheck 48,8-46,3 ; RCP +3,2), Cook et Sabato notent Lean R et il a dépensé six fois plus. Le marché a chuté de >80 % à ~63 % en octobre avec la dynamique démocrate. Mon estimation (~68 %) n'est que 4-5 pts au-dessus et recoupe ma thèse NON au Sénat texan : je passe.",
+  "sources": [
+   {
+    "titre": "PollCheck – Texas Governor",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/texas"
+   },
+   {
+    "titre": "FOX 7 – sondage UH Hobby School",
+    "url": "https://www.fox7austin.com/news/texas-governors-race-abbott-holds-narrow-lead-over-hinojosa-latest-poll"
+   },
+   {
+    "titre": "Kalshi News – Hinojosa réduit l'écart",
+    "url": "https://news.kalshi.com/p/texas-governor-odds-hinojosa-closes-gap-on-abbott"
+   },
+   {
+    "titre": "Newsweek – chances d'Abbott",
+    "url": "https://www.newsweek.com/greg-abbott-chances-gina-hinojosa-flip-texas-poll-12559858"
+   }
+  ]
+ },
+ {
+  "id": "630805",
+  "question": "Will the Democrats win the Michigan Senate race in 2026?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.69,
+  "cote_oui_marche": 0.735,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "El-Sayed (D) mène Rogers (R) dans tous les sondages d'octobre, de +1 à +6 (RCP +1,9, FiftyPlusOne +3, Glengariff +6,3), et Rogers a une image dégradée (32/49). Les sondages du Michigan ont surestimé les D en présidentielle mais pas aux midterms 2018/2022. Mon 69 % est à 4-5 pts du marché : pas d'avantage net.",
+  "sources": [
+   {
+    "titre": "RCP – Michigan Senate Rogers vs El-Sayed",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed"
+   },
+   {
+    "titre": "ClickOnDetroit – sondage Glengariff",
+    "url": "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/"
+   },
+   {
+    "titre": "FiftyPlusOne – moyenne Michigan",
+    "url": "https://fiftyplusone.news/polls/senate/general/michigan"
+   },
+   {
+    "titre": "Kalshi News – El-Sayed mène",
+    "url": "https://news.kalshi.com/p/michigan-senate-odds-el-sayed-leads-rogers-66-to-34"
+   }
+  ]
+ },
+ {
+  "id": "562793",
+  "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.65,
+  "cote_oui_marche": 0.675,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Les modèles divergent fortement : Silver Bulletin ~75 %, DDHQ 57-60 %, VoteHub 60 %, The Economist 56 % ; Kalshi 64-67 %. Les D doivent gagner net 4 sièges (le VP Vance départage un 50-50) et leurs avances dans Maine, Texas, Ohio, Alaska sont de 2 à 4 pts, dans la marge d'erreur. Ma moyenne (~65 %) est à 2,5 pts de la cote : je passe.",
+  "sources": [
+   {
+    "titre": "Decision Desk HQ – forecast 2026",
+    "url": "https://votes.decisiondeskhq.com/forecast/2026"
+   },
+   {
+    "titre": "Kalshi News – Sénat D à 64 %",
+    "url": "https://news.kalshi.com/p/senate-midterm-odds-democrats-chances-priced-at-64-as-key-races-tighten"
+   },
+   {
+    "titre": "Newsweek – Nate Silver révise les chances D",
+    "url": "https://www.newsweek.com/nate-silver-revises-democrats-chances-winning-senate-12586949"
+   },
+   {
+    "titre": "HotAir – l'avis de Nate Silver",
+    "url": "https://hotair.com/john-s-2/2026/10/28/nate-silvers-take-on-next-weeks-election-n3820440"
+   }
+  ]
+ },
+ {
+  "id": "562802",
+  "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.92,
+  "cote_oui_marche": 0.925,
+  "verdict": "passer",
+  "confiance": 3,
+  "resume": "Silver Bulletin donne ~95 %, DDHQ 80 % (238 sièges D), Cook voit les D favoris dans au moins 218 sièges, et le vote générique est à D+8 (RCP). Kalshi 91 %, Polymarket 92,5 %. Aucun écart avec mon estimation.",
+  "sources": [
+   {
+    "titre": "Decision Desk HQ – forecast 2026",
+    "url": "https://votes.decisiondeskhq.com/forecast/2026"
+   },
+   {
+    "titre": "Newsweek – sondages à 10 jours",
+    "url": "https://www.newsweek.com/who-will-win-the-midterms-what-polls-show-10-days-out-12610772"
+   },
+   {
+    "titre": "DeFi Rate – Kalshi vs Polymarket",
+    "url": "https://defirate.com/odds/2026-midterms/"
+   },
+   {
+    "titre": "HotAir – l'avis de Nate Silver",
+    "url": "https://hotair.com/john-s-2/2026/10/28/nate-silvers-take-on-next-weeks-election-n3820440"
+   }
+  ]
+ },
+ {
+  "id": "562828",
+  "question": "2026 Balance of Power: D Senate, D House",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.64,
+  "cote_oui_marche": 0.665,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Ce combo vaut quasiment P(Sénat D), une Chambre R avec un Sénat D étant très improbable (~1 %). Avec un Sénat D estimé à ~65 %, j'obtiens ~64 % contre 66,5 % au marché. Écart trop faible.",
+  "sources": [
+   {
+    "titre": "Decision Desk HQ – forecast 2026",
+    "url": "https://votes.decisiondeskhq.com/forecast/2026"
+   },
+   {
+    "titre": "Kalshi News – Sénat D à 64 %",
+    "url": "https://news.kalshi.com/p/senate-midterm-odds-democrats-chances-priced-at-64-as-key-races-tighten"
+   },
+   {
+    "titre": "DeFi Rate – Kalshi vs Polymarket",
+    "url": "https://defirate.com/odds/2026-midterms/"
+   }
+  ]
+ },
+ {
+  "id": "943539",
+  "question": "Will the Republican Party win the NC-11 House seat?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.18,
+  "cote_oui_marche": 0.145,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Edwards s'est retiré en août après une recommandation de censure ; la remplaçante Balkcom (R) a levé 399 k$ contre 5,9 M$ pour Ager (D). Cook et Sabato notent Lean D, Emerson (petit échantillon) donne Ager 56-43, mais le district reste R+5 (Trump +9,5 en 2024). ~18 % contre 14,5 % : pas d'avantage exploitable.",
+  "sources": [
+   {
+    "titre": "Ballotpedia – NC-11 2026",
+    "url": "https://ballotpedia.org/North_Carolina's_11th_Congressional_District_election,_2026"
+   },
+   {
+    "titre": "US Polling Data – NC-11",
+    "url": "https://uspollingdata.com/races/house/nc-11/"
+   },
+   {
+    "titre": "NC Newsline – Ager vs Balkcom",
+    "url": "https://ncnewsline.com/2026/10/19/a-tale-of-two-farmers-ager-balkcom-compete-for-nc-11-seat/?channel=brytalocals"
+   }
+  ]
+ },
+ {
+  "id": "5686980",
+  "question": "US x Iran ceasefire continues through November 8?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.76,
+  "cote_oui_marche": 0.765,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Le marché ne passe à NON qu'en cas de frappe américaine aérienne ou de missile touchant le sol iranien avant le 8/11 ; aucune depuis début septembre. Mais AP (28/10) rapporte que les alliés du Golfe ont été prévenus de frappes possibles après les midterms et CNN évoque une action possible sous 96 h après un ordre. Risque concentré sur la fenêtre 4-8 novembre, que j'estime ~20-25 % : la cote est juste.",
+  "sources": [
+   {
+    "titre": "OPB/AP – alliés prévenus de frappes après les élections",
+    "url": "https://www.opb.org/article/2026/10/28/us-warns-allies-to-prepare-for-possible-iran-strikes-retaliation-after-elections-ap-sources-say/"
+   },
+   {
+    "titre": "Critical Threats – Iran Update 27/10",
+    "url": "https://www.criticalthreats.org/analysis/iran-update-october-27-2026-6ae139a34d6dc"
+   },
+   {
+    "titre": "Yahoo/Mediaite – Trump « penche » vers des frappes",
+    "url": "https://www.yahoo.com/news/politics/articles/trump-reportedly-leaning-toward-major-113950660.html"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=5686980"
+   }
+  ]
+ },
+ {
+  "id": "6051332",
+  "question": "Will Bitcoin reach $82,500 in October?",
+  "at": "2026-10-29T20:04:25Z",
+  "proba_oui": 0.36,
+  "cote_oui_marche": 0.315,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Le BTC est vers 80 800 $ (CoinGecko, 29/10 20h UTC), à +2,1 % du seuil, avec un plus haut de ~81 900 $ depuis la création du marché le 22/10 (règle : bougie 1 min Binance avant le 1/11 03:59 UTC). Un modèle de franchissement avec la volatilité réalisée donne 35-45 %, mais la tendance est baissière après la Fed. Avantage purement modélisé et fragile : je passe.",
+  "sources": [
+   {
+    "titre": "CoinGecko – historique BTC",
+    "url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14"
+   },
+   {
+    "titre": "cryptonews.net – le BTC repasse sous 80 000 $",
+    "url": "https://cryptonews.net/news/analytics/33668911/"
+   },
+   {
+    "titre": "Nexo – Markets Today 29/10",
+    "url": "https://nexo.com/blog/markets-today-october-29"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma)",
+    "url": "https://gamma-api.polymarket.com/markets?id=6051332"
+   }
+  ]
+ }
+]
