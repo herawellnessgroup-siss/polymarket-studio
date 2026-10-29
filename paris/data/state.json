@@ -1,0 +1,21 @@
+{
+ "capital_initial": 1000.0,
+ "debut": "2026-10-30",
+ "fin": "2027-01-31",
+ "maj": "2026-10-29T19:59:49Z",
+ "bankroll": 1000.0,
+ "disponible": 1000.0,
+ "en_jeu": 0,
+ "pnl": 0,
+ "perf": 0.0,
+ "roi": null,
+ "paris": 0,
+ "en_cours": 0,
+ "regles": 0,
+ "gagnes": 0,
+ "perdus": 0,
+ "reussite": null,
+ "cote_moyenne": null,
+ "mise_totale": 0,
+ "jours_restants": 94
+}
