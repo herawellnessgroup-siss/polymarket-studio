@@ -156,5 +156,47 @@
   "resultat": null,
   "pnl": null,
   "ferme_le": null
+ },
+ {
+  "id": "629558",
+  "question": "Will the Republicans win the Ohio governor race in 2026?",
+  "theme": "Élections US",
+  "slug": "ohio-governor-winner-2026",
+  "pari": "OUI",
+  "prix_entree": 0.175,
+  "prix_actuel": 0.175,
+  "mise": 15.01,
+  "parts": 85.7714,
+  "gain_potentiel": 70.76,
+  "valeur": 15.01,
+  "pnl_latent": 0.0,
+  "note": "C",
+  "score": 58,
+  "risque": "Faible",
+  "pourquoi": "Recherche : Acton (D) ne mène Ramaswamy (R) que de 2,9 pts (PollCheck 48,1-45,2, qui donne 33 % au républicain) : Suffolk +4, Fox +2, Echelon Ramaswamy +2, et Ramaswamy a gagné 0,7 pt en 30 jours. Les sondages de l'Ohio ont sous-estimé les républicains à chaque scrutin depuis 2016 (2018, 2022 et 2024 compris), alors que le marché (18 %) traite ce +3 comme une quasi-certitude démocrate. Avantage ~10 pts ; confiance faible car le climat national favorable aux D peut annuler ce biais. Ma probabilité 28 % contre 17.5 % pour le marché, soit un avantage de 10.5 points. Confiance 1/3. Risque faible. Mise 1.5 % du capital. Note marché C (58/100). Sources : 3.",
+  "proba_estimee": 0.28,
+  "avantage": 0.105,
+  "confiance": 1,
+  "sources": [
+   {
+    "titre": "PollCheck – Ohio gouverneur",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/ohio"
+   },
+   {
+    "titre": "MultiState – Ohio gouverneur",
+    "url": "https://www.multistate.us/elections/governor-race/ohio-2026"
+   },
+   {
+    "titre": "DeFi Rate – Ramaswamy, sondages et marchés",
+    "url": "https://defirate.com/news/ramaswamy-a-polling-boost-ohio-traders-back-acton/"
+   }
+  ],
+  "ouvert_le": "2026-10-30T11:53:08Z",
+  "fin": "2026-11-04",
+  "statut": "ouvert",
+  "sortie": null,
+  "resultat": null,
+  "pnl": null,
+  "ferme_le": null
  }
 ]
