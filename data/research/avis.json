@@ -1,85 +1,181 @@
 [
  {
-  "id": "629558",
-  "question": "Will the Republicans win the Ohio governor race in 2026?",
-  "at": "2026-10-29T20:04:25Z",
-  "proba_oui": 0.27,
-  "cote_oui_marche": 0.2,
-  "verdict": "passer",
+  "id": "630963",
+  "question": "Will the Democrats win the Texas Senate race in 2026?",
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.65,
+  "cote_oui_marche": 0.705,
+  "verdict": "NON",
   "confiance": 1,
-  "resume": "Acton (D) mène Ramaswamy (R) de 3 à 4 pts (PollCheck 48,2-45,0, RCP +4,3, Suffolk +4), Cook et Sabato sont passés Lean D et la pub de Ramaswamy avec la mère d'Acton a fait polémique. Les sondages de l'Ohio ont souvent sous-estimé les R (2018 : DeWine +3,7 malgré des sondages pro-Cordray), ce qui me fait monter à ~27 %. Avantage de 7 pts mais fondé surtout sur ce biais historique : je passe, d'autant que c'est la même thèse que mes NON Texas/Alaska.",
+  "resume": "Les derniers sondages ont bougé vers Talarico : CNN/SSRS +6 (20-27/10), YouGov +8, TSU +2, Rasmussen 45-45 ; PollCheck le met à +2,8 et 66 %. Au vote anticipé, les électeurs de primaire démocrate dépassent pour la première fois ceux de primaire républicaine (36 % contre 35 %). Je remonte ma proba OUI à 65 % : la position NON garde un petit avantage (~5,5 pts) mais la thèse s'affaiblit, je la garde en confiance faible et pourrais conseiller de sortir au prochain passage.",
   "sources": [
    {
-    "titre": "PollCheck – Ohio Governor",
+    "titre": "PollCheck – Texas Sénat",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/texas"
+   },
+   {
+    "titre": "HPPR – vote anticipé au Texas (27/10)",
+    "url": "https://www.hppr.org/hppr-news/2026-10-27/texas-early-voting-rate-is-slightly-behind-2018-when-beto-orourke-challenged-ted-cruz"
+   },
+   {
+    "titre": "FOX 4 – sondage UH Hobby School",
+    "url": "https://www.fox4news.com/news/texas-senate-race-talarico-holds-razor-thin-lead-over-paxton-latest-poll"
+   },
+   {
+    "titre": "FOX – suivi des sondages Paxton/Talarico",
+    "url": "https://www.fox4news.com/election/texas-senate-race-polls-paxton-talarico"
+   }
+  ]
+ },
+ {
+  "id": "634976",
+  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.62,
+  "cote_oui_marche": 0.695,
+  "verdict": "NON",
+  "confiance": 1,
+  "resume": "Pas de nouveau sondage depuis mi-octobre : moyenne PollCheck Peltola 51,1-48,3 (59 %), DDHQ +1,6, Cook Toss-up, Sabato Lean D. Le marché (69,5 %) reste au-dessus des modèles alors que le vote préférentiel et l'homonyme Sullivan peuvent resserrer l'écart. Thèse intacte, avantage ~7,5 pts, confiance faible faute de sondages récents.",
+  "sources": [
+   {
+    "titre": "PollCheck – Alaska Sénat",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/alaska"
+   },
+   {
+    "titre": "DDHQ – moyenne Alaska",
+    "url": "https://votes.decisiondeskhq.com/polls/2080"
+   },
+   {
+    "titre": "Newsweek – sondages d'octobre",
+    "url": "https://www.newsweek.com/mary-peltola-is-pulling-ahead-in-the-final-stretch-against-dan-sullivan-12592675"
+   }
+  ]
+ },
+ {
+  "id": "648383",
+  "question": "Billionaire one-time wealth tax passes in California election 2026?",
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.15,
+  "cote_oui_marche": 0.225,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Le dernier PPIC (16-22/10) donne la Prop 40 à 46 % oui contre 52 % non, après 52 % oui en septembre ; les Props 41/42 concurrentes sondent mieux. Les opposants ont désormais dépensé plus de 300 M$. Rien de nouveau ne contredit la thèse : position NON confirmée (avantage ~7,5 pts).",
+  "sources": [
+   {
+    "titre": "SF Standard – PPIC octobre",
+    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
+   },
+   {
+    "titre": "CalMatters – Prop 40",
+    "url": "https://calmatters.org/newsletter/prop-40-poll/"
+   },
+   {
+    "titre": "CPA Practice Advisor – perte de majorité",
+    "url": "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/"
+   }
+  ]
+ },
+ {
+  "id": "629558",
+  "question": "Will the Republicans win the Ohio governor race in 2026?",
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.28,
+  "cote_oui_marche": 0.18,
+  "verdict": "OUI",
+  "confiance": 1,
+  "resume": "Acton (D) ne mène Ramaswamy (R) que de 2,9 pts (PollCheck 48,1-45,2, qui donne 33 % au républicain) : Suffolk +4, Fox +2, Echelon Ramaswamy +2, et Ramaswamy a gagné 0,7 pt en 30 jours. Les sondages de l'Ohio ont sous-estimé les républicains à chaque scrutin depuis 2016 (2018, 2022 et 2024 compris), alors que le marché (18 %) traite ce +3 comme une quasi-certitude démocrate. Avantage ~10 pts ; confiance faible car le climat national favorable aux D peut annuler ce biais.",
+  "sources": [
+   {
+    "titre": "PollCheck – Ohio gouverneur",
     "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/ohio"
    },
    {
-    "titre": "MultiState – Ohio 2026",
+    "titre": "MultiState – Ohio gouverneur",
     "url": "https://www.multistate.us/elections/governor-race/ohio-2026"
    },
    {
-    "titre": "Kalshi News – Acton à 68 %",
-    "url": "https://news.kalshi.com/p/ohio-governor-odds-acton-surges-to-68-against-ramaswamy-in-the-ohio"
-   },
-   {
-    "titre": "ABC6 – réactions à la pub Ramaswamy",
-    "url": "https://abc6onyourside.com/news/election/ramaswamy-campaign-ad-featuring-amy-actons-estranged-mother-draws-criticism-from-voters"
+    "titre": "DeFi Rate – Ramaswamy, sondages et marchés",
+    "url": "https://defirate.com/news/ramaswamy-a-polling-boost-ohio-traders-back-acton/"
    }
   ]
  },
  {
   "id": "629691",
   "question": "Will the Republicans win the Texas governor race in 2026?",
-  "at": "2026-10-29T20:04:25Z",
+  "at": "2026-10-30T11:52:00Z",
   "proba_oui": 0.68,
-  "cote_oui_marche": 0.635,
+  "cote_oui_marche": 0.618,
   "verdict": "passer",
   "confiance": 1,
-  "resume": "Abbott (R) mène Hinojosa (D) de 2,5 à 3 pts (PollCheck 48,8-46,3 ; RCP +3,2), Cook et Sabato notent Lean R et il a dépensé six fois plus. Le marché a chuté de >80 % à ~63 % en octobre avec la dynamique démocrate. Mon estimation (~68 %) n'est que 4-5 pts au-dessus et recoupe ma thèse NON au Sénat texan : je passe.",
+  "resume": "Abbott mène dans les 9 sondages de la moyenne RCP (+3,2 ; PollCheck +2,6 et 82 %), Cook et Sabato notent Lean R et il dépense 6 fois plus. Le marché (62 %) et Kalshi (63 %, -10 pts en une semaine) intègrent une surperformance démocrate, signal que le vote anticipé rend plausible. Avantage ~6 pts mais c'est la même thèse que le NON au Sénat texan déjà en portefeuille : je passe pour ne pas l'empiler.",
   "sources": [
    {
-    "titre": "PollCheck – Texas Governor",
+    "titre": "PollCheck – Texas gouverneur",
     "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/texas"
    },
    {
-    "titre": "FOX 7 – sondage UH Hobby School",
-    "url": "https://www.fox7austin.com/news/texas-governors-race-abbott-holds-narrow-lead-over-hinojosa-latest-poll"
+    "titre": "MultiState – Texas gouverneur",
+    "url": "https://www.multistate.us/elections/governor-race/texas-2026"
    },
    {
-    "titre": "Kalshi News – Hinojosa réduit l'écart",
-    "url": "https://news.kalshi.com/p/texas-governor-odds-hinojosa-closes-gap-on-abbott"
+    "titre": "DeFi Rate – cotes Texas gouverneur",
+    "url": "https://defirate.com/odds/texas-governor/"
+   }
+  ]
+ },
+ {
+  "id": "630925",
+  "question": "Will the Republicans win the South Carolina Senate race in 2026?",
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.75,
+  "cote_oui_marche": 0.735,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Darline Graham (R) ne mène Annie Andrews (D) que de 1,9 pt (PollCheck, 69 %) : NYT/Siena 48-48, Targoz 47-46, Citadel 43-39, Trafalgar +3. Andrews lève 7 fois plus, mais aucun démocrate n'a gagné un siège de sénateur en Caroline du Sud depuis 1998 et les sondages y ont sous-estimé les R (2020). Marché à 73,5 %, Kalshi 74 % : pas d'écart.",
+  "sources": [
+   {
+    "titre": "PollCheck – Caroline du Sud Sénat",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/south-carolina"
    },
    {
-    "titre": "Newsweek – chances d'Abbott",
-    "url": "https://www.newsweek.com/greg-abbott-chances-gina-hinojosa-flip-texas-poll-12559858"
+    "titre": "Political.org – sondage SC Policy Council",
+    "url": "https://political.org/2026/10/28/south-carolina-poll-shows-graham-and-andrews-in-close-race-ahead-of-election-day/"
+   },
+   {
+    "titre": "Action Network – cotes Graham/Andrews (28/10)",
+    "url": "https://www.actionnetwork.com/news/south-carolina-senate-race-sc-governor-race-2026-graham-vs-andrews-polls-kalshi-polymarket-south-carolina-senate-race-predictions-oct-28"
    }
   ]
  },
  {
   "id": "630805",
   "question": "Will the Democrats win the Michigan Senate race in 2026?",
-  "at": "2026-10-29T20:04:25Z",
-  "proba_oui": 0.69,
-  "cote_oui_marche": 0.735,
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.76,
+  "cote_oui_marche": 0.765,
   "verdict": "passer",
   "confiance": 2,
-  "resume": "El-Sayed (D) mène Rogers (R) dans tous les sondages d'octobre, de +1 à +6 (RCP +1,9, FiftyPlusOne +3, Glengariff +6,3), et Rogers a une image dégradée (32/49). Les sondages du Michigan ont surestimé les D en présidentielle mais pas aux midterms 2018/2022. Mon 69 % est à 4-5 pts du marché : pas d'avantage net.",
+  "resume": "El-Sayed (D) a creusé l'écart dans les derniers sondages : Mitchell/CBS +7, CNN/SSRS +7, Glengariff +6, Upswing +5, InsiderAdvantage +1 ; PollCheck +4 et 73 %. La hausse du marché (73,5 % → 76,5 %) suit ces sondages. Cote juste.",
   "sources": [
    {
-    "titre": "RCP – Michigan Senate Rogers vs El-Sayed",
-    "url": "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed"
-   },
+    "titre": "PollCheck – Michigan Sénat",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/michigan"
+   }
+  ]
+ },
+ {
+  "id": "628941",
+  "question": "Will Xavier Becerra win the California Governor Election in 2026?",
+  "at": "2026-10-30T11:52:00Z",
+  "proba_oui": 0.985,
+  "cote_oui_marche": 0.9725,
+  "verdict": "passer",
+  "confiance": 3,
+  "resume": "Le PPIC (16-22/10) donne Becerra 61 % contre 37 % pour Steve Hilton, écart stable depuis juillet, dans un État où aucun républicain n'a gagné depuis 2006. La victoire est quasi acquise, mais l'avantage sur la cote n'est que de ~1 pt.",
+  "sources": [
    {
-    "titre": "ClickOnDetroit – sondage Glengariff",
-    "url": "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/"
-   },
-   {
-    "titre": "FiftyPlusOne – moyenne Michigan",
-    "url": "https://fiftyplusone.news/polls/senate/general/michigan"
-   },
-   {
-    "titre": "Kalshi News – El-Sayed mène",
-    "url": "https://news.kalshi.com/p/michigan-senate-odds-el-sayed-leads-rogers-66-to-34"
+    "titre": "SF Standard – PPIC octobre",
+    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
    }
   ]
  },
@@ -212,86 +308,6 @@
    {
     "titre": "Règles Polymarket (Gamma)",
     "url": "https://gamma-api.polymarket.com/markets?id=6051332"
-   }
-  ]
- },
- {
-  "id": "630963",
-  "question": "Will the Democrats win the Texas Senate race in 2026?",
-  "at": "2026-10-29T23:50:31Z",
-  "proba_oui": 0.6,
-  "cote_oui_marche": 0.695,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "Nouveau sondage Texas Southern (21-25/10, 2 000 LV) : Talarico 49, Paxton 47, dans la marge d'erreur, cohérent avec Emerson 48-46, Fox 49-49, Marist 47-45. Talarico mène ou égalise partout mais de 2-3 pts en moyenne, avec un historique de sous-estimation des R au Texas et la tournée de Trump pour Paxton non captée. Thèse confirmée : 69,5 % reste trop cher.",
-  "sources": [
-   {
-    "titre": "USA Today/Yahoo – sondage TSU et récapitulatif",
-    "url": "https://www.yahoo.com/news/politics/articles/texas-senate-poll-shows-challenge-170037506.html"
-   },
-   {
-    "titre": "Newsweek – sondages à une semaine",
-    "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879"
-   },
-   {
-    "titre": "Newsweek – vote anticipé record",
-    "url": "https://www.newsweek.com/what-record-breaking-texas-early-voting-says-about-the-talarico-vs-paxton-race-12622094"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=630963"
-   }
-  ]
- },
- {
-  "id": "634976",
-  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
-  "at": "2026-10-29T23:50:31Z",
-  "proba_oui": 0.62,
-  "cote_oui_marche": 0.705,
-  "verdict": "NON",
-  "confiance": 1,
-  "resume": "Rien de neuf depuis 20 h : Peltola +1,2 pt en moyenne RCP, Data for Progress 51-49 après vote préférentiel, modèles autour de 61 %. Le marché à 70,5 % reste au-dessus des modèles, mais l'écart repose sur peu de sondages. Thèse maintenue, confiance faible.",
-  "sources": [
-   {
-    "titre": "RCP – Sullivan vs Peltola",
-    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
-   },
-   {
-    "titre": "Data for Progress – Alaska (20/10)",
-    "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
-   },
-   {
-    "titre": "FiftyPlusOne – moyenne Alaska",
-    "url": "https://fiftyplusone.news/polls/senate/general/alaska"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=634976"
-   }
-  ]
- },
- {
-  "id": "648383",
-  "question": "Billionaire one-time wealth tax passes in California election 2026?",
-  "at": "2026-10-29T23:50:31Z",
-  "proba_oui": 0.14,
-  "cote_oui_marche": 0.245,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "PPIC (16-22/10, 1 086 LV) : Prop. 40 à 46 % oui contre 52 % non, en chute de 6 pts depuis septembre (52 %), y compris chez les démocrates. Plus de 300 M$ dépensés contre ; une mesure sous 50 % à une semaine du vote perd presque toujours. Thèse confirmée.",
-  "sources": [
-   {
-    "titre": "SF Standard – PPIC octobre",
-    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
-   },
-   {
-    "titre": "CPA Practice Advisor – perte de la majorité",
-    "url": "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=648383"
    }
   ]
  },
