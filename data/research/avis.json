@@ -1,105 +1,5 @@
 [
  {
-  "id": "630963",
-  "question": "Will the Democrats win the Texas Senate race in 2026?",
-  "at": "2026-10-30T11:52:00Z",
-  "proba_oui": 0.65,
-  "cote_oui_marche": 0.705,
-  "verdict": "NON",
-  "confiance": 1,
-  "resume": "Les derniers sondages ont bougé vers Talarico : CNN/SSRS +6 (20-27/10), YouGov +8, TSU +2, Rasmussen 45-45 ; PollCheck le met à +2,8 et 66 %. Au vote anticipé, les électeurs de primaire démocrate dépassent pour la première fois ceux de primaire républicaine (36 % contre 35 %). Je remonte ma proba OUI à 65 % : la position NON garde un petit avantage (~5,5 pts) mais la thèse s'affaiblit, je la garde en confiance faible et pourrais conseiller de sortir au prochain passage.",
-  "sources": [
-   {
-    "titre": "PollCheck – Texas Sénat",
-    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/texas"
-   },
-   {
-    "titre": "HPPR – vote anticipé au Texas (27/10)",
-    "url": "https://www.hppr.org/hppr-news/2026-10-27/texas-early-voting-rate-is-slightly-behind-2018-when-beto-orourke-challenged-ted-cruz"
-   },
-   {
-    "titre": "FOX 4 – sondage UH Hobby School",
-    "url": "https://www.fox4news.com/news/texas-senate-race-talarico-holds-razor-thin-lead-over-paxton-latest-poll"
-   },
-   {
-    "titre": "FOX – suivi des sondages Paxton/Talarico",
-    "url": "https://www.fox4news.com/election/texas-senate-race-polls-paxton-talarico"
-   }
-  ]
- },
- {
-  "id": "634976",
-  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
-  "at": "2026-10-30T11:52:00Z",
-  "proba_oui": 0.62,
-  "cote_oui_marche": 0.695,
-  "verdict": "NON",
-  "confiance": 1,
-  "resume": "Pas de nouveau sondage depuis mi-octobre : moyenne PollCheck Peltola 51,1-48,3 (59 %), DDHQ +1,6, Cook Toss-up, Sabato Lean D. Le marché (69,5 %) reste au-dessus des modèles alors que le vote préférentiel et l'homonyme Sullivan peuvent resserrer l'écart. Thèse intacte, avantage ~7,5 pts, confiance faible faute de sondages récents.",
-  "sources": [
-   {
-    "titre": "PollCheck – Alaska Sénat",
-    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/alaska"
-   },
-   {
-    "titre": "DDHQ – moyenne Alaska",
-    "url": "https://votes.decisiondeskhq.com/polls/2080"
-   },
-   {
-    "titre": "Newsweek – sondages d'octobre",
-    "url": "https://www.newsweek.com/mary-peltola-is-pulling-ahead-in-the-final-stretch-against-dan-sullivan-12592675"
-   }
-  ]
- },
- {
-  "id": "648383",
-  "question": "Billionaire one-time wealth tax passes in California election 2026?",
-  "at": "2026-10-30T11:52:00Z",
-  "proba_oui": 0.15,
-  "cote_oui_marche": 0.225,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "Le dernier PPIC (16-22/10) donne la Prop 40 à 46 % oui contre 52 % non, après 52 % oui en septembre ; les Props 41/42 concurrentes sondent mieux. Les opposants ont désormais dépensé plus de 300 M$. Rien de nouveau ne contredit la thèse : position NON confirmée (avantage ~7,5 pts).",
-  "sources": [
-   {
-    "titre": "SF Standard – PPIC octobre",
-    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
-   },
-   {
-    "titre": "CalMatters – Prop 40",
-    "url": "https://calmatters.org/newsletter/prop-40-poll/"
-   },
-   {
-    "titre": "CPA Practice Advisor – perte de majorité",
-    "url": "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/"
-   }
-  ]
- },
- {
-  "id": "629558",
-  "question": "Will the Republicans win the Ohio governor race in 2026?",
-  "at": "2026-10-30T11:52:00Z",
-  "proba_oui": 0.28,
-  "cote_oui_marche": 0.18,
-  "verdict": "OUI",
-  "confiance": 1,
-  "resume": "Acton (D) ne mène Ramaswamy (R) que de 2,9 pts (PollCheck 48,1-45,2, qui donne 33 % au républicain) : Suffolk +4, Fox +2, Echelon Ramaswamy +2, et Ramaswamy a gagné 0,7 pt en 30 jours. Les sondages de l'Ohio ont sous-estimé les républicains à chaque scrutin depuis 2016 (2018, 2022 et 2024 compris), alors que le marché (18 %) traite ce +3 comme une quasi-certitude démocrate. Avantage ~10 pts ; confiance faible car le climat national favorable aux D peut annuler ce biais.",
-  "sources": [
-   {
-    "titre": "PollCheck – Ohio gouverneur",
-    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/ohio"
-   },
-   {
-    "titre": "MultiState – Ohio gouverneur",
-    "url": "https://www.multistate.us/elections/governor-race/ohio-2026"
-   },
-   {
-    "titre": "DeFi Rate – Ramaswamy, sondages et marchés",
-    "url": "https://defirate.com/news/ramaswamy-a-polling-boost-ohio-traders-back-acton/"
-   }
-  ]
- },
- {
   "id": "629691",
   "question": "Will the Republicans win the Texas governor race in 2026?",
   "at": "2026-10-30T11:52:00Z",
@@ -312,38 +212,6 @@
   ]
  },
  {
-  "id": "5686980",
-  "question": "US x Iran ceasefire continues through November 8?",
-  "at": "2026-10-29T23:50:31Z",
-  "proba_oui": 0.6,
-  "cote_oui_marche": 0.59,
-  "verdict": "passer",
-  "confiance": 1,
-  "resume": "Axios, WSJ et ABC rapportent un plan US-Israël d'environ une semaine de frappes juste après les midterms du 3/11 ; Trump dit « anything is possible » mais n'a pas décidé, et la Maison-Blanche exclut toute frappe avant le 3. La fenêtre utile n'est que 4-8/11, alors que Qatar, Arabie et Pakistan poussent un accord et que Trump a déjà reporté des frappes. Risque réel mais le marché (59 %) l'a déjà intégré : pas d'avantage.",
-  "sources": [
-   {
-    "titre": "Gulf News – plan de frappes d'une semaine (29/10)",
-    "url": "https://gulfnews.com/world/mena/we-need-to-finish-the-job-pressure-mounts-on-iran-as-us-israel-prepare-week-long-strikes-1.500728275"
-   },
-   {
-    "titre": "ABC News – plans post-élection",
-    "url": "https://abcnews.com/Politics/us-israel-drawing-plans-resume-attacks-iran-post/story?id=137479897"
-   },
-   {
-    "titre": "WLT Report – Trump le 28/10",
-    "url": "https://wltreport.com/2026/10/28/trump-iran-strikes-after-midterms-new-war-plan/"
-   },
-   {
-    "titre": "Gulf News – Hormuz et diplomatie (29/10)",
-    "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-iran-warns-israel-against-strikes-1.500727751"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma)",
-    "url": "https://gamma-api.polymarket.com/markets?id=5686980"
-   }
-  ]
- },
- {
   "id": "4232146",
   "question": "Will Ra'am win 8 or more seats in the 2026 Knesset elections?",
   "at": "2026-10-29T23:50:31Z",
@@ -412,6 +280,254 @@
    {
     "titre": "Règles Polymarket (Gamma)",
     "url": "https://gamma-api.polymarket.com/markets?id=5170739"
+   }
+  ]
+ },
+ {
+  "id": "630963",
+  "question": "Will the Democrats win the Texas Senate race in 2026?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.64,
+  "cote_oui_marche": 0.715,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Thèse intacte : Quantus (26-28/10, 1 221 LV) donne Paxton 48,7-47,6, Fox 49-49, Emerson Talarico +2, RCP Talarico +1,8. Course dans la marge d'erreur dans un État où les sondages ont sous-estimé les R en 2020 et 2024 ; le marché à 71,5 % (Kalshi 65 %) paie trop cher. On garde.",
+  "sources": [
+   {
+    "titre": "Fox 7 Austin – Quantus : Paxton devant",
+    "url": "https://www.fox7austin.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days"
+   },
+   {
+    "titre": "Kalshi News – Talarico à 65 %",
+    "url": "https://news.kalshi.com/p/texas-senate-odds-talarico-at-65-trump-lubbock-paxton"
+   },
+   {
+    "titre": "Yahoo – deux sondages en désaccord",
+    "url": "https://www.yahoo.com/news/politics/articles/2-polls-disagree-close-texas-160046061.html"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=630963"
+   }
+  ]
+ },
+ {
+  "id": "634976",
+  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.62,
+  "cote_oui_marche": 0.695,
+  "verdict": "NON",
+  "confiance": 1,
+  "resume": "Le dernier sondage, Alaska Survey Research (26-29/10, 1 326 LV), donne Peltola 51-49 après vote préférentiel ; la moyenne RCP est à Peltola +1,2 et classe la course Toss-up. Rien de neuf ne justifie 69,5 % ; la thèse tient, avec une confiance faible faute de sondages nombreux. On garde.",
+  "sources": [
+   {
+    "titre": "RCP – Alaska Senate",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
+   },
+   {
+    "titre": "Newsweek – NYT/Siena Peltola +7 (début oct.)",
+    "url": "https://www.newsweek.com/alaska-poll-gives-mary-peltola-7-point-lead-after-nyt-staffer-report-12523514"
+   },
+   {
+    "titre": "CBS – controverse de l'homonyme Dan Sullivan",
+    "url": "https://www.cbsnews.com/news/peltola-she-knew-nothing-dan-sullivan-ballot-controversy-alaska-senate-race/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=634976"
+   }
+  ]
+ },
+ {
+  "id": "648383",
+  "question": "Billionaire one-time wealth tax passes in California election 2026?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.13,
+  "cote_oui_marche": 0.215,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "PPIC (16-22/10, 1 086 LV) : Prop. 40 à 46 % oui contre 52 % non, alors qu'elle était à 52 % en septembre ; le recul vient des démocrates et indépendants. Les initiatives fiscales perdent en général du terrain en fin de campagne. Thèse renforcée, on garde.",
+  "sources": [
+   {
+    "titre": "SF Standard – sondage PPIC octobre",
+    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
+   },
+   {
+    "titre": "CPA Practice Advisor – la taxe perd la majorité",
+    "url": "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/"
+   },
+   {
+    "titre": "Fortune – 70 % des fiscalistes contre",
+    "url": "https://fortune.com/2026/10/27/california-billionaire-tax-scholars-voting-prop-40/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=648383"
+   }
+  ]
+ },
+ {
+  "id": "629558",
+  "question": "Will the Republicans win the Ohio governor race in 2026?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.24,
+  "cote_oui_marche": 0.195,
+  "verdict": "OUI",
+  "confiance": 1,
+  "resume": "Thèse affaiblie mais pas morte : Suffolk/USA Today (21-26/10) donne Acton +4, Marist (15-18/10) Acton +7, et un sondage interne républicain (Axios, 28/10) dit que la pub d'attaque de Ramaswamy se retourne contre lui. L'Ohio reste R+11 et ses sondages ont sous-estimé les R récemment, d'où ~24 % contre 19,5 %. On garde la petite position, sans renforcer.",
+  "sources": [
+   {
+    "titre": "Newsweek – Suffolk Acton 48-44",
+    "url": "https://www.newsweek.com/vivek-ramaswamy-attack-ad-ohio-switch-votes-amy-acton-12628602"
+   },
+   {
+    "titre": "Marist – Ohio octobre 2026",
+    "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/"
+   },
+   {
+    "titre": "Axios – sondage GOP sur la pub de Ramaswamy",
+    "url": "https://www.axios.com/2026/10/28/gop-poll-ramaswamy-ad-damage"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=629558"
+   }
+  ]
+ },
+ {
+  "id": "630747",
+  "question": "Will the Republicans win the Kansas Senate race in 2026?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.52,
+  "cote_oui_marche": 0.475,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Sondages partagés : CNN/SSRS (20-26/10) Hamilton +4, RedBox (20-23/10) et InsiderAdvantage (13-14/10) Marshall +1 ; Poliwave voit un pile-ou-face. Le Kansas (Trump +16) et l'erreur de 2020 (Marshall sous-estimé) penchent R, mais Marshall est impopulaire et le climat est démocrate. Avantage ~4,5 pts et très corrélé à nos paris TX/AK/OH : on passe.",
+  "sources": [
+   {
+    "titre": "Newsweek – CNN/SSRS Hamilton 49-45",
+    "url": "https://www.newsweek.com/trump-cancels-kansas-rally-as-new-poll-shows-republican-trailing-democrat-12637635"
+   },
+   {
+    "titre": "Poliwave – moyenne et prévision Kansas",
+    "url": "https://www.poliwave.com/us/ks/sen-fed"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=630747"
+   }
+  ]
+ },
+ {
+  "id": "1194643",
+  "question": "Will Iliana Iotova win the next Bulgarian presidential election?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.6,
+  "cote_oui_marche": 0.625,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "1er tour (25/10) : Iotova 34,7 %, Gyurov 32 %, Kostadinov (Vazrazhdane) 12,6 %, participation record basse de 22,5 %. Kostadinov exclut tout report sur Gyurov et dit qu'une partie ira à Iotova, mais les sociologues (Myara, Trend) jugent les chances égales avec une dynamique pour Gyurov, qui capte des électeurs GERB. Aucun sondage de second tour publié : on passe.",
+  "sources": [
+   {
+    "titre": "BTA – Vazrazhdane ne soutiendra pas Gyurov",
+    "url": "https://www.bta.bg/en/news/bulgaria/1233500-vazrazhdane-leader-says-party-will-not-back-gurov-in-presidential-runoff"
+   },
+   {
+    "titre": "OBCT – résultats du 1er tour",
+    "url": "https://www.balcanicaucaso.org/en/cp_article/bulgarias-presidential-election-record-low-turnout-and-a-tight-race-in-the-first-round/"
+   },
+   {
+    "titre": "News.bg – sociologues : chances égales",
+    "url": "https://news.bg/politics/sotsiolozi-shansovete-sa-izravneni-ako-jotova-zagubi-balotazha-tova-shte-e-otsenka-za-radev.html"
+   },
+   {
+    "titre": "Rio Times – second tour le 1er novembre",
+    "url": "https://www.riotimesonline.com/bulgaria-politics-explained-who-holds-power-2026/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=1194643"
+   }
+  ]
+ },
+ {
+  "id": "5686980",
+  "question": "US x Iran ceasefire continues through November 8?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.7,
+  "cote_oui_marche": 0.72,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Le plan de frappes après les midterms existe toujours, mais la diplomatie s'est accélérée : le Qatar a porté un projet américain révisé à Téhéran le 30/10, une réponse iranienne est attendue samedi et Vance pourrait mener une délégation la semaine prochaine. Trump dit que la guerre sera « wrapped up soon ». Je vois ~30 % de frappe sur le sol iranien entre le 4 et le 8/11, en ligne avec le marché.",
+  "sources": [
+   {
+    "titre": "CBS – live Iran, médiation qatarie",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+   },
+   {
+    "titre": "House of Saud – projet révisé du 30/10",
+    "url": "https://houseofsaud.com/qatar-iran-deal-oct30/"
+   },
+   {
+    "titre": "Iran International – live 30/10",
+    "url": "https://www.iranintl.com/en/liveblog/202610244311"
+   },
+   {
+    "titre": "Al-Monitor – pas de frappe avant le 3/11",
+    "url": "https://www.al-monitor.com/originals/2026/10/trump-says-no-iran-strikes-midterms-amid-productive-talks"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=5686980"
+   }
+  ]
+ },
+ {
+  "id": "4951227",
+  "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.94,
+  "cote_oui_marche": 0.9535,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Le WTI a clôturé vendredi 30/10 à 104,12 $ (+2,1 %, plus haut de six mois), porté par les incidents à Ormuz et les attaques houthies. Le 31/10 est un samedi, donc tout se joue sur un plus haut intraday déjà atteint ou non ; je n'ai pas pu vérifier ce plus haut ni relire la source de résolution. Le marché à 95 % suggère que le seuil a été touché : pas d'avantage exploitable.",
+  "sources": [
+   {
+    "titre": "Rallies/Reuters – clôture du 30/10",
+    "url": "https://rallies.ai/news/oil-jumps-2-settles-at-six-month-highs-on-fears-of-escalation-in-iran-6ce8eedea1b78f5d"
+   },
+   {
+    "titre": "FinanceFeeds – Brent 116 $, Ormuz",
+    "url": "https://financefeeds.com/brent-crude-oil-price-116-friday-hormuz-mine-strikes-december-expiry-fourth-monthly-gain-bull-120-bear-108/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=4951227"
+   }
+  ]
+ },
+ {
+  "id": "5170740",
+  "question": "Will Bitcoin dip to $75,000 in October?",
+  "at": "2026-10-30T23:50:00Z",
+  "proba_oui": 0.1,
+  "cote_oui_marche": 0.0795,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Le BTC est à ~76 900 $ vendredi soir après un plus bas à 76 443 $ ; le piratage record de Binance (6,3 Md$) et 1,57 Md$ de liquidations pèsent, mais Binance couvre les pertes. Il faut encore -2,5 % en ~28 h : ~10 % selon la volatilité récente, contre 8 % au marché. Avantage trop mince.",
+  "sources": [
+   {
+    "titre": "Yahoo/Motley Fool – crypto 30/10, piratage Binance",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html"
+   },
+   {
+    "titre": "CryptoTicker – BTC avant la clôture mensuelle",
+    "url": "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/"
+   },
+   {
+    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
+    "url": "https://gamma-api.polymarket.com/markets?id=5170740"
    }
   ]
  }
