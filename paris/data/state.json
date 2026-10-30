@@ -2,7 +2,7 @@
  "capital_initial": 1000.0,
  "debut": "2026-10-30",
  "fin": "2027-01-31",
- "maj": "2026-10-29T20:16:17Z",
+ "maj": "2026-10-30T04:25:40Z",
  "bankroll": 1000.0,
  "disponible": 1000.0,
  "en_jeu": 0,
@@ -17,5 +17,5 @@
  "reussite": null,
  "cote_moyenne": null,
  "mise_totale": 0,
- "jours_restants": 94
+ "jours_restants": 93
 }
