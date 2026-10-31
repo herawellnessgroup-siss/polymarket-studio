@@ -164,12 +164,12 @@
   "slug": "ohio-governor-winner-2026",
   "pari": "OUI",
   "prix_entree": 0.175,
-  "prix_actuel": 0.195,
+  "prix_actuel": 0.19,
   "mise": 15.01,
   "parts": 85.7714,
   "gain_potentiel": 70.76,
-  "valeur": 16.73,
-  "pnl_latent": 1.72,
+  "valeur": 16.3,
+  "pnl_latent": 1.29,
   "note": "C",
   "score": 58,
   "risque": "Faible",
@@ -192,6 +192,94 @@
    }
   ],
   "ouvert_le": "2026-10-30T11:53:08Z",
+  "fin": "2026-11-04",
+  "statut": "ouvert",
+  "sortie": null,
+  "resultat": null,
+  "pnl": null,
+  "ferme_le": null
+ },
+ {
+  "id": "1284082",
+  "question": "Will the Democratic Party win the NC-13 House seat?",
+  "theme": "Élections US",
+  "slug": "nc-13-house-election-winner",
+  "pari": "NON",
+  "prix_entree": 0.585,
+  "prix_actuel": 0.585,
+  "mise": 7.49,
+  "parts": 12.8034,
+  "gain_potentiel": 5.31,
+  "valeur": 7.49,
+  "pnl_latent": 0.0,
+  "note": "B",
+  "score": 66,
+  "risque": "Modéré",
+  "pourquoi": "Recherche : NC-13 est un district R+9. Le sortant Knott (R) l'avait gagné de plus de 17 points en 2024, et les prévisions DDHQ (Knott 79 %) et Pollsmax (91 %) le donnent largement favori. Il n'y a aucun sondage public ; les seuls signaux démocrates sont le ciblage DCCC et une vague nationale (générique D+9). Je n'ai pas trouvé ce qui explique la hausse de 18 points sur 7 jours (sondage interne ?), d'où la confiance faible. Ma probabilité 78 % contre 58.5 % pour le marché, soit un avantage de 19.5 points. Confiance 1/3. Risque modéré (cote très volatile). Mise 0.75 % du capital. Note marché B (66/100). Sources : 3.",
+  "proba_estimee": 0.78,
+  "avantage": 0.195,
+  "confiance": 1,
+  "sources": [
+   {
+    "titre": "DDHQ – NC-13 forecast",
+    "url": "https://votes.decisiondeskhq.com/races/2026-11-03/north-carolina-us-house-13-general-election/forecast"
+   },
+   {
+    "titre": "Pollsmax – NC-13",
+    "url": "https://www.pollsmax.com/2026-us-house/north-carolina-13/forecast/"
+   },
+   {
+    "titre": "RantNC – DCCC Districts in Play",
+    "url": "https://rantnc.com/2026/10/08/dccc-moves-nc13-to-districts-in-play-list/"
+   }
+  ],
+  "ouvert_le": "2026-10-31T11:54:35Z",
+  "fin": "2026-11-04",
+  "statut": "ouvert",
+  "sortie": null,
+  "resultat": null,
+  "pnl": null,
+  "ferme_le": null
+ },
+ {
+  "id": "629324",
+  "question": "Will the Democrats win the Florida governor race in 2026?",
+  "theme": "Élections US",
+  "slug": "florida-governor-winner-2026",
+  "pari": "NON",
+  "prix_entree": 0.635,
+  "prix_actuel": 0.635,
+  "mise": 14.99,
+  "parts": 23.6063,
+  "gain_potentiel": 8.62,
+  "valeur": 14.99,
+  "pnl_latent": 0.0,
+  "note": "B",
+  "score": 66,
+  "risque": "Modéré",
+  "pourquoi": "Recherche : Les sondages solides donnent tous Donalds (R) devant Jolly (D) : NYT/Siena (29/10) 48-44, Echelon 50-44, YouGov 50-42. La moyenne RCP est à Donalds +5, et Cook, Sabato et Inside sont à Lean R. La hausse de 18 points sur 7 jours vient d'un vote anticipé moins républicain que d'habitude (R+2,6), mais en Floride les républicains votent surtout le jour J, et les sondages y ont sous-estimé la droite en 2018, 2022 et 2024. Ma probabilité 74 % contre 63.5 % pour le marché, soit un avantage de 10.5 points. Confiance 2/3. Risque modéré (cote très volatile). Mise 1.5 % du capital. Note marché B (66/100). Sources : 4.",
+  "proba_estimee": 0.74,
+  "avantage": 0.105,
+  "confiance": 2,
+  "sources": [
+   {
+    "titre": "Newsweek – NYT/Siena Floride",
+    "url": "https://www.newsweek.com/byron-donalds-vs-david-jollylatest-top-rated-poll-as-trump-jr-in-florida-12636567"
+   },
+   {
+    "titre": "270toWin – Florida governor polls",
+    "url": "https://www.270towin.com/2026-governor-polls/florida"
+   },
+   {
+    "titre": "WJHG – experts vote anticipé",
+    "url": "https://www.fox10tv.com/2026/10/30/republicans-expected-hold-state-despite-lower-early-voting-numbers-ahead-fl-election-experts-say/"
+   },
+   {
+    "titre": "OnPoint – early vote Florida",
+    "url": "https://onpointpolitics.us/maps/early-vote/florida"
+   }
+  ],
+  "ouvert_le": "2026-10-31T11:54:35Z",
   "fin": "2026-11-04",
   "statut": "ouvert",
   "sortie": null,

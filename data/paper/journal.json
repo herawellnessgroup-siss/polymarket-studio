@@ -42,5 +42,27 @@
   "montant": -15.01,
   "pnl": null,
   "detail": "Recherche : Acton (D) ne mène Ramaswamy (R) que de 2,9 pts (PollCheck 48,1-45,2, qui donne 33 % au républicain) : Suffolk +4, Fox +2, Echelon Ramaswamy +2, et Ramaswamy a gagné 0,7 pt en 30 jours. Les sondages de l'Ohio ont sous-estimé les républicains à chaque scrutin depuis 2016 (2018, 2022 et 2024 compris), alors que le marché (18 %) traite ce +3 comme une quasi-certitude démocrate. Avantage ~10 pts ; confiance faible car le climat national favorable aux D peut annuler ce biais. Ma probabilité 28 % contre 17.5 % pour le marché, soit un avantage de 10.5 points. Confiance 1/3. Risque faible. Mise 1.5 % du capital. Note marché C (58/100). Sources : 3."
+ },
+ {
+  "at": "2026-10-31T11:54:35Z",
+  "action": "ENTRÉE",
+  "id": "1284082",
+  "marche": "Will the Democratic Party win the NC-13 House seat?",
+  "pari": "NON",
+  "prix": 0.585,
+  "montant": -7.49,
+  "pnl": null,
+  "detail": "Recherche : NC-13 est un district R+9. Le sortant Knott (R) l'avait gagné de plus de 17 points en 2024, et les prévisions DDHQ (Knott 79 %) et Pollsmax (91 %) le donnent largement favori. Il n'y a aucun sondage public ; les seuls signaux démocrates sont le ciblage DCCC et une vague nationale (générique D+9). Je n'ai pas trouvé ce qui explique la hausse de 18 points sur 7 jours (sondage interne ?), d'où la confiance faible. Ma probabilité 78 % contre 58.5 % pour le marché, soit un avantage de 19.5 points. Confiance 1/3. Risque modéré (cote très volatile). Mise 0.75 % du capital. Note marché B (66/100). Sources : 3."
+ },
+ {
+  "at": "2026-10-31T11:54:35Z",
+  "action": "ENTRÉE",
+  "id": "629324",
+  "marche": "Will the Democrats win the Florida governor race in 2026?",
+  "pari": "NON",
+  "prix": 0.635,
+  "montant": -14.99,
+  "pnl": null,
+  "detail": "Recherche : Les sondages solides donnent tous Donalds (R) devant Jolly (D) : NYT/Siena (29/10) 48-44, Echelon 50-44, YouGov 50-42. La moyenne RCP est à Donalds +5, et Cook, Sabato et Inside sont à Lean R. La hausse de 18 points sur 7 jours vient d'un vote anticipé moins républicain que d'habitude (R+2,6), mais en Floride les républicains votent surtout le jour J, et les sondages y ont sous-estimé la droite en 2018, 2022 et 2024. Ma probabilité 74 % contre 63.5 % pour le marché, soit un avantage de 10.5 points. Confiance 2/3. Risque modéré (cote très volatile). Mise 1.5 % du capital. Note marché B (66/100). Sources : 4."
  }
 ]
