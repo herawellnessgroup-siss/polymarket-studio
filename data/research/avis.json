@@ -284,118 +284,6 @@
   ]
  },
  {
-  "id": "630963",
-  "question": "Will the Democrats win the Texas Senate race in 2026?",
-  "at": "2026-10-30T23:50:00Z",
-  "proba_oui": 0.64,
-  "cote_oui_marche": 0.715,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "Thèse intacte : Quantus (26-28/10, 1 221 LV) donne Paxton 48,7-47,6, Fox 49-49, Emerson Talarico +2, RCP Talarico +1,8. Course dans la marge d'erreur dans un État où les sondages ont sous-estimé les R en 2020 et 2024 ; le marché à 71,5 % (Kalshi 65 %) paie trop cher. On garde.",
-  "sources": [
-   {
-    "titre": "Fox 7 Austin – Quantus : Paxton devant",
-    "url": "https://www.fox7austin.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days"
-   },
-   {
-    "titre": "Kalshi News – Talarico à 65 %",
-    "url": "https://news.kalshi.com/p/texas-senate-odds-talarico-at-65-trump-lubbock-paxton"
-   },
-   {
-    "titre": "Yahoo – deux sondages en désaccord",
-    "url": "https://www.yahoo.com/news/politics/articles/2-polls-disagree-close-texas-160046061.html"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
-    "url": "https://gamma-api.polymarket.com/markets?id=630963"
-   }
-  ]
- },
- {
-  "id": "634976",
-  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
-  "at": "2026-10-30T23:50:00Z",
-  "proba_oui": 0.62,
-  "cote_oui_marche": 0.695,
-  "verdict": "NON",
-  "confiance": 1,
-  "resume": "Le dernier sondage, Alaska Survey Research (26-29/10, 1 326 LV), donne Peltola 51-49 après vote préférentiel ; la moyenne RCP est à Peltola +1,2 et classe la course Toss-up. Rien de neuf ne justifie 69,5 % ; la thèse tient, avec une confiance faible faute de sondages nombreux. On garde.",
-  "sources": [
-   {
-    "titre": "RCP – Alaska Senate",
-    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
-   },
-   {
-    "titre": "Newsweek – NYT/Siena Peltola +7 (début oct.)",
-    "url": "https://www.newsweek.com/alaska-poll-gives-mary-peltola-7-point-lead-after-nyt-staffer-report-12523514"
-   },
-   {
-    "titre": "CBS – controverse de l'homonyme Dan Sullivan",
-    "url": "https://www.cbsnews.com/news/peltola-she-knew-nothing-dan-sullivan-ballot-controversy-alaska-senate-race/"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
-    "url": "https://gamma-api.polymarket.com/markets?id=634976"
-   }
-  ]
- },
- {
-  "id": "648383",
-  "question": "Billionaire one-time wealth tax passes in California election 2026?",
-  "at": "2026-10-30T23:50:00Z",
-  "proba_oui": 0.13,
-  "cote_oui_marche": 0.215,
-  "verdict": "NON",
-  "confiance": 2,
-  "resume": "PPIC (16-22/10, 1 086 LV) : Prop. 40 à 46 % oui contre 52 % non, alors qu'elle était à 52 % en septembre ; le recul vient des démocrates et indépendants. Les initiatives fiscales perdent en général du terrain en fin de campagne. Thèse renforcée, on garde.",
-  "sources": [
-   {
-    "titre": "SF Standard – sondage PPIC octobre",
-    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
-   },
-   {
-    "titre": "CPA Practice Advisor – la taxe perd la majorité",
-    "url": "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/"
-   },
-   {
-    "titre": "Fortune – 70 % des fiscalistes contre",
-    "url": "https://fortune.com/2026/10/27/california-billionaire-tax-scholars-voting-prop-40/"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
-    "url": "https://gamma-api.polymarket.com/markets?id=648383"
-   }
-  ]
- },
- {
-  "id": "629558",
-  "question": "Will the Republicans win the Ohio governor race in 2026?",
-  "at": "2026-10-30T23:50:00Z",
-  "proba_oui": 0.24,
-  "cote_oui_marche": 0.195,
-  "verdict": "OUI",
-  "confiance": 1,
-  "resume": "Thèse affaiblie mais pas morte : Suffolk/USA Today (21-26/10) donne Acton +4, Marist (15-18/10) Acton +7, et un sondage interne républicain (Axios, 28/10) dit que la pub d'attaque de Ramaswamy se retourne contre lui. L'Ohio reste R+11 et ses sondages ont sous-estimé les R récemment, d'où ~24 % contre 19,5 %. On garde la petite position, sans renforcer.",
-  "sources": [
-   {
-    "titre": "Newsweek – Suffolk Acton 48-44",
-    "url": "https://www.newsweek.com/vivek-ramaswamy-attack-ad-ohio-switch-votes-amy-acton-12628602"
-   },
-   {
-    "titre": "Marist – Ohio octobre 2026",
-    "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/"
-   },
-   {
-    "titre": "Axios – sondage GOP sur la pub de Ramaswamy",
-    "url": "https://www.axios.com/2026/10/28/gop-poll-ramaswamy-ad-damage"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
-    "url": "https://gamma-api.polymarket.com/markets?id=629558"
-   }
-  ]
- },
- {
   "id": "630747",
   "question": "Will the Republicans win the Kansas Senate race in 2026?",
   "at": "2026-10-30T23:50:00Z",
@@ -416,38 +304,6 @@
    {
     "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
     "url": "https://gamma-api.polymarket.com/markets?id=630747"
-   }
-  ]
- },
- {
-  "id": "1194643",
-  "question": "Will Iliana Iotova win the next Bulgarian presidential election?",
-  "at": "2026-10-30T23:50:00Z",
-  "proba_oui": 0.6,
-  "cote_oui_marche": 0.625,
-  "verdict": "passer",
-  "confiance": 1,
-  "resume": "1er tour (25/10) : Iotova 34,7 %, Gyurov 32 %, Kostadinov (Vazrazhdane) 12,6 %, participation record basse de 22,5 %. Kostadinov exclut tout report sur Gyurov et dit qu'une partie ira à Iotova, mais les sociologues (Myara, Trend) jugent les chances égales avec une dynamique pour Gyurov, qui capte des électeurs GERB. Aucun sondage de second tour publié : on passe.",
-  "sources": [
-   {
-    "titre": "BTA – Vazrazhdane ne soutiendra pas Gyurov",
-    "url": "https://www.bta.bg/en/news/bulgaria/1233500-vazrazhdane-leader-says-party-will-not-back-gurov-in-presidential-runoff"
-   },
-   {
-    "titre": "OBCT – résultats du 1er tour",
-    "url": "https://www.balcanicaucaso.org/en/cp_article/bulgarias-presidential-election-record-low-turnout-and-a-tight-race-in-the-first-round/"
-   },
-   {
-    "titre": "News.bg – sociologues : chances égales",
-    "url": "https://news.bg/politics/sotsiolozi-shansovete-sa-izravneni-ako-jotova-zagubi-balotazha-tova-shte-e-otsenka-za-radev.html"
-   },
-   {
-    "titre": "Rio Times – second tour le 1er novembre",
-    "url": "https://www.riotimesonline.com/bulgaria-politics-explained-who-holds-power-2026/"
-   },
-   {
-    "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
-    "url": "https://gamma-api.polymarket.com/markets?id=1194643"
    }
   ]
  },
@@ -528,6 +384,282 @@
    {
     "titre": "Règles Polymarket (Gamma, non relues : accès refusé)",
     "url": "https://gamma-api.polymarket.com/markets?id=5170740"
+   }
+  ]
+ },
+ {
+  "id": "630963",
+  "question": "Will the Democrats win the Texas Senate race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.62,
+  "cote_oui_marche": 0.715,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Talarico (D) mène de +1,8 dans la moyenne RCP. CNN/SSRS le donne à +6, mais Quantus (26-28/10) donne Paxton +1,1 et Fox affiche une égalité. Le vote anticipé est record (6,3 M de votants) et Inside Elections est passé à Tilt D, mais les sondages texans ont surestimé les démocrates en 2018, 2020 et 2024. Autour de 60/40, le marché à 71,5 % reste un peu cher : on garde NON.",
+  "sources": [
+   {
+    "titre": "Kalshi News – Talarico 70% fin du vote anticipé",
+    "url": "https://news.kalshi.com/p/talarico-texas-senate-odds-new-high-70-percent-early-voting"
+   },
+   {
+    "titre": "RealClearPolling – Texas Senate",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/texas/paxton-vs-talarico"
+   },
+   {
+    "titre": "FOX 4 – Quantus Paxton +1",
+    "url": "https://www.fox4news.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days"
+   },
+   {
+    "titre": "Newsweek – vote anticipé Texas",
+    "url": "https://www.newsweek.com/early-voting-texas-record-james-talarico-ken-paxton-12642509"
+   }
+  ]
+ },
+ {
+  "id": "634976",
+  "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.58,
+  "cote_oui_marche": 0.715,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Peltola mène de +1,2 dans la moyenne RCP, et ASR (26-29/10) la donne à 51-49 après vote préférentiel, dans un État Trump +13 aux sondages peu fiables. Nouvelle affaire : un homonyme « Daniel J. Sullivan » aurait été recruté pour capter des voix. Le gouverneur a ouvert une enquête et le DOJ cherche à bloquer la certification en cas de défaite serrée de Sullivan. Ce risque de contentieux et de résolution tardive renforce le NON.",
+  "sources": [
+   {
+    "titre": "RealClearPolling – Alaska Senate",
+    "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan"
+   },
+   {
+    "titre": "CBS News live – Peltola nie",
+    "url": "https://www.cbsnews.com/live-updates/2026-elections-midtems-house-senate-trump/"
+   },
+   {
+    "titre": "Alaska's News Source – Sullivan",
+    "url": "https://www.alaskasnewssource.com/2026/10/30/sen-sullivan-confident-hell-win-re-election-over-peltola/"
+   }
+  ]
+ },
+ {
+  "id": "648383",
+  "question": "Billionaire one-time wealth tax passes in California election 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.18,
+  "cote_oui_marche": 0.265,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "PPIC (16-22/10) donne 46 % de oui contre 52 % de non, soit 6 points de moins qu'en septembre, avec seulement 2 % d'indécis. Les opposants ont plus de 205 M$ (dont 102 M$ de Sergey Brin), et aucun sondage récent ne contredit PPIC. La remontée de la cote de 23 % à 26,5 % ne repose sur aucune nouvelle info : on garde NON.",
+  "sources": [
+   {
+    "titre": "SF Standard – PPIC Prop 40",
+    "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
+   },
+   {
+    "titre": "CalMatters – Prop 40 poll",
+    "url": "https://calmatters.org/newsletter/prop-40-poll/"
+   }
+  ]
+ },
+ {
+  "id": "629558",
+  "question": "Will the Republicans win the Ohio governor race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.24,
+  "cote_oui_marche": 0.195,
+  "verdict": "OUI",
+  "confiance": 1,
+  "resume": "Acton (D) mène de +2,9 à +4,4 selon les moyennes. Suffolk la donne à +4 et Marist à +8, mais Echelon donne Ramaswamy +2. Cook et Sabato sont à Lean D, et le vote anticipé montre environ 60 000 voix d'avance démocrate. L'Ohio a sous-estimé les républicains de 5 à 7 points en 2020 et 2024 : l'avantage tombe à ~4,5 points, on garde sans renforcer.",
+  "sources": [
+   {
+    "titre": "Pollcheck – Ohio governor",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/ohio"
+   },
+   {
+    "titre": "Newsweek – ratings Ohio",
+    "url": "https://newsweek.com/ramaswamy-husted-dealt-blow-fox-news-forecast-week-before-midterm-12624633"
+   },
+   {
+    "titre": "Kalshi News – Ohio early vote",
+    "url": "https://news.kalshi.com/p/ohio-senate-odds-brown-holds-at-68-as-early-votes-top-1-2-million"
+   }
+  ]
+ },
+ {
+  "id": "629324",
+  "question": "Will the Democrats win the Florida governor race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.26,
+  "cote_oui_marche": 0.365,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Les sondages solides donnent tous Donalds (R) devant Jolly (D) : NYT/Siena (29/10) 48-44, Echelon 50-44, YouGov 50-42. La moyenne RCP est à Donalds +5, et Cook, Sabato et Inside sont à Lean R. La hausse de 18 points sur 7 jours vient d'un vote anticipé moins républicain que d'habitude (R+2,6), mais en Floride les républicains votent surtout le jour J, et les sondages y ont sous-estimé la droite en 2018, 2022 et 2024.",
+  "sources": [
+   {
+    "titre": "Newsweek – NYT/Siena Floride",
+    "url": "https://www.newsweek.com/byron-donalds-vs-david-jollylatest-top-rated-poll-as-trump-jr-in-florida-12636567"
+   },
+   {
+    "titre": "270toWin – Florida governor polls",
+    "url": "https://www.270towin.com/2026-governor-polls/florida"
+   },
+   {
+    "titre": "WJHG – experts vote anticipé",
+    "url": "https://www.fox10tv.com/2026/10/30/republicans-expected-hold-state-despite-lower-early-voting-numbers-ahead-fl-election-experts-say/"
+   },
+   {
+    "titre": "OnPoint – early vote Florida",
+    "url": "https://onpointpolitics.us/maps/early-vote/florida"
+   }
+  ]
+ },
+ {
+  "id": "1284082",
+  "question": "Will the Democratic Party win the NC-13 House seat?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.22,
+  "cote_oui_marche": 0.4,
+  "verdict": "NON",
+  "confiance": 1,
+  "resume": "NC-13 est un district R+9. Le sortant Knott (R) l'avait gagné de plus de 17 points en 2024, et les prévisions DDHQ (Knott 79 %) et Pollsmax (91 %) le donnent largement favori. Il n'y a aucun sondage public ; les seuls signaux démocrates sont le ciblage DCCC et une vague nationale (générique D+9). Je n'ai pas trouvé ce qui explique la hausse de 18 points sur 7 jours (sondage interne ?), d'où la confiance faible.",
+  "sources": [
+   {
+    "titre": "DDHQ – NC-13 forecast",
+    "url": "https://votes.decisiondeskhq.com/races/2026-11-03/north-carolina-us-house-13-general-election/forecast"
+   },
+   {
+    "titre": "Pollsmax – NC-13",
+    "url": "https://www.pollsmax.com/2026-us-house/north-carolina-13/forecast/"
+   },
+   {
+    "titre": "RantNC – DCCC Districts in Play",
+    "url": "https://rantnc.com/2026/10/08/dccc-moves-nc13-to-districts-in-play-list/"
+   }
+  ]
+ },
+ {
+  "id": "6361051",
+  "question": "US announces end of Iranian blockade by November 2, 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.05,
+  "cote_oui_marche": 0.12,
+  "verdict": "NON",
+  "confiance": 2,
+  "resume": "Le blocus est en vigueur depuis le 14/07 : Trump a dit le 8/10 qu'il restait « in full force », et CENTCOM l'a confirmé le 30/10. Téhéran a jugé « inacceptable » le projet qatari et exige d'abord la levée du blocus. Sa réponse aux amendements est attendue ce week-end, mais un accord avec annonce de levée avant la fin du 2/11 paraît très improbable.",
+  "sources": [
+   {
+    "titre": "CBS News live – Iran diplomacy",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+   },
+   {
+    "titre": "Geo.tv – Tehran rejects Qatar draft",
+    "url": "https://www.geo.tv/latest/688776-qatar-presents-iran-with-new-draft-deal-to-end-war-tehran-calls-ideas-unacceptable"
+   },
+   {
+    "titre": "Wikipedia – 2026 US naval blockade of Iran",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_naval_blockade_of_Iran"
+   }
+  ]
+ },
+ {
+  "id": "631057",
+  "question": "Will the Democrats win the Ohio Senate race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.64,
+  "cote_oui_marche": 0.725,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Brown (D) mène de +3,3 selon RCP et pollcheck, et Kalshi le donne à 68 %. Dans un État Trump +11, où Brown a perdu en 2024 alors que les sondages le donnaient devant, NON aurait ~8,5 points d'avantage. Mais c'est le même pari que notre OUI Ramaswamy (une erreur de sondage pro-R dans l'Ohio), et l'écart avec Kalshi n'est que de ~5 points : on passe pour ne pas doubler l'exposition.",
+  "sources": [
+   {
+    "titre": "Pollcheck – Ohio Senate",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/ohio-special"
+   },
+   {
+    "titre": "Kalshi News – Brown 68%",
+    "url": "https://news.kalshi.com/p/ohio-senate-odds-brown-holds-at-68-as-early-votes-top-1-2-million"
+   }
+  ]
+ },
+ {
+  "id": "634893",
+  "question": "Will an independent win the Nebraska Senate race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.2,
+  "cote_oui_marche": 0.205,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "NYT/Siena (31/10) donne Ricketts 49 %, Osborn 43 %, ce qui explique la chute de 10 points de la cote en 24 h. Les sondages précédents quasi à égalité étaient surtout partisans, et en 2024 Osborn avait sous-performé ses sondages d'environ 7 points. Le marché à 20,5 % est juste.",
+  "sources": [
+   {
+    "titre": "Political Wire – Ricketts leads Osborn",
+    "url": "https://politicalwire.com/2026/10/31/ricketts-leads-osborn-in-nebraska-senate-race-2/"
+   },
+   {
+    "titre": "Pollcheck – Nebraska",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/nebraska"
+   }
+  ]
+ },
+ {
+  "id": "630806",
+  "question": "Will the Republicans win the Michigan Senate race in 2026?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.2,
+  "cote_oui_marche": 0.205,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "El-Sayed (D) mène Rogers de +2,9 selon la moyenne Pollsmax ; Mitchell (26-27/10) le donne à +7 et Glengariff à +6. Rogers est impopulaire (32/49), mais le Michigan a souvent sous-estimé les républicains. La cote est juste.",
+  "sources": [
+   {
+    "titre": "CBS Detroit – Mitchell poll",
+    "url": "https://www.cbsnews.com/detroit/news/el-sayed-widens-lead-rogers-michigan-senate-poll/"
+   },
+   {
+    "titre": "Pollsmax – Michigan",
+    "url": "https://www.pollsmax.com/senate/michigan/"
+   }
+  ]
+ },
+ {
+  "id": "562794",
+  "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.3,
+  "cote_oui_marche": 0.285,
+  "verdict": "passer",
+  "confiance": 2,
+  "resume": "Silver Bulletin donne 77,7 % au contrôle démocrate (30/10), Kalshi 65 %, et Inside Elections a déplacé 9 courses vers D. Les démocrates ont besoin de +4 avec plusieurs voies (NC, Maine, Ohio, Texas, Alaska, Iowa, Kansas). Pas d'avantage, et nos NON Texas/Alaska sont déjà corrélés à ce scénario.",
+  "sources": [
+   {
+    "titre": "Newsweek – Inside Elections & Silver",
+    "url": "https://www.newsweek.com/forecaster-shifts-9-senate-races-as-nate-silver-touts-democratic-polls-12639194"
+   },
+   {
+    "titre": "Kalshi News – Senate control",
+    "url": "https://news.kalshi.com/p/who-will-control-the-senate-2026"
+   }
+  ]
+ },
+ {
+  "id": "1194643",
+  "question": "Will Iliana Iotova win the next Bulgarian presidential election?",
+  "at": "2026-10-31T11:54:05Z",
+  "proba_oui": 0.6,
+  "cote_oui_marche": 0.66,
+  "verdict": "passer",
+  "confiance": 1,
+  "resume": "Au 1er tour, Iotova a fait 34,76 % contre 31,95 % pour Gyurov, alors que les sondages l'avaient fortement surestimée. GERB (Borisov) s'est rallié à Gyurov le 30/10, et les sociologues parlent de chances égales. Kostadinov exclut Gyurov et la plupart des réserves vont à Iotova : légère avance pour elle, sans sondage de second tour pour parier.",
+  "sources": [
+   {
+    "titre": "Novinite – résultats officiels 1er tour",
+    "url": "https://www.novinite.com/articles/241274/Official+Final+Count:+Yotova+Wins+34.76,+Gyurov+31.95+-+Both+Advance+to+Bulgaria's+Presidential+Runoff"
+   },
+   {
+    "titre": "Sega – Borisov soutient Gyurov",
+    "url": "https://www.segabg.com/hot/category-bulgaria/boyko-borisov-podkrepi-andrey-gyurov-za-balotazha"
+   },
+   {
+    "titre": "Newspoint – sociologues: chances égales",
+    "url": "https://newspoint.bg/sotsiolozi-za-balotazha-shansovete-na-yotova-i-gyurov-sa-izravneni-zaguba-mozhe/"
    }
   ]
  }
