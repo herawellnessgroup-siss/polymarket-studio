@@ -108,5 +108,16 @@
   "montant": 21.75,
   "pnl": 6.76,
   "detail": "Prise de bénéfice : +7 $ déjà captés sur 9 $ possibles (seuil 60 %)."
+ },
+ {
+  "at": "2026-11-04T02:08:49Z",
+  "action": "SORTIE",
+  "id": "634976",
+  "marche": "Will Mary Peltola win the Alaska Senate race in 2026?",
+  "pari": "NON",
+  "prix": 0.115,
+  "montant": 5.95,
+  "pnl": -9.05,
+  "detail": "Stop-loss : la position a perdu 9 $ sur 15 $ misés (seuil 50 %)."
  }
 ]
