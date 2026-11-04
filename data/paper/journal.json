@@ -119,5 +119,16 @@
   "montant": 5.95,
   "pnl": -9.05,
   "detail": "Stop-loss : la position a perdu 9 $ sur 15 $ misés (seuil 50 %)."
+ },
+ {
+  "at": "2026-11-04T05:05:54Z",
+  "action": "SORTIE",
+  "id": "648383",
+  "marche": "Billionaire one-time wealth tax passes in California election 2026?",
+  "pari": "NON",
+  "prix": 0.985,
+  "montant": 39.14,
+  "pnl": 9.14,
+  "detail": "Prise de bénéfice : +9 $ déjà captés sur 10 $ possibles (seuil 60 %)."
  }
 ]
