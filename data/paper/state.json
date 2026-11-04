@@ -1,16 +1,16 @@
 {
  "capital_initial": 1000,
- "cash": 887.51,
+ "cash": 922.9,
  "debut": "2026-10-30",
  "fin": "2026-11-30",
- "maj": "2026-11-03T23:46:46Z",
- "valeur": 986.41,
- "pnl_total": -13.59,
- "pnl_realise": 0,
- "pnl_latent": -13.59,
- "engage": 98.9,
- "ouvertes": 6,
- "soldees": 0,
- "gagnees": 0,
- "jours_restants": 27
+ "maj": "2026-11-04T01:13:31Z",
+ "valeur": 962.9,
+ "pnl_total": -37.1,
+ "pnl_realise": -32.1,
+ "pnl_latent": -5.0,
+ "engage": 40.0,
+ "ouvertes": 2,
+ "soldees": 4,
+ "gagnees": 1,
+ "jours_restants": 26
 }

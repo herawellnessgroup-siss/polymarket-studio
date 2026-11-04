@@ -64,5 +64,49 @@
   "montant": -14.99,
   "pnl": null,
   "detail": "Recherche : Les sondages solides donnent tous Donalds (R) devant Jolly (D) : NYT/Siena (29/10) 48-44, Echelon 50-44, YouGov 50-42. La moyenne RCP est à Donalds +5, et Cook, Sabato et Inside sont à Lean R. La hausse de 18 points sur 7 jours vient d'un vote anticipé moins républicain que d'habitude (R+2,6), mais en Floride les républicains votent surtout le jour J, et les sondages y ont sous-estimé la droite en 2018, 2022 et 2024. Ma probabilité 74 % contre 63.5 % pour le marché, soit un avantage de 10.5 points. Confiance 2/3. Risque modéré (cote très volatile). Mise 1.5 % du capital. Note marché B (66/100). Sources : 4."
+ },
+ {
+  "at": "2026-11-04T01:13:31Z",
+  "action": "SORTIE",
+  "id": "630963",
+  "marche": "Will the Democrats win the Texas Senate race in 2026?",
+  "pari": "NON",
+  "prix": 0.075,
+  "montant": 7.63,
+  "pnl": -22.37,
+  "detail": "Stop-loss : la position a perdu 22 $ sur 30 $ misés (seuil 50 %)."
+ },
+ {
+  "at": "2026-11-04T01:13:31Z",
+  "action": "SORTIE",
+  "id": "629558",
+  "marche": "Will the Republicans win the Ohio governor race in 2026?",
+  "pari": "OUI",
+  "prix": 0.035,
+  "montant": 3.0,
+  "pnl": -12.01,
+  "detail": "Stop-loss : la position a perdu 12 $ sur 15 $ misés (seuil 50 %)."
+ },
+ {
+  "at": "2026-11-04T01:13:31Z",
+  "action": "SORTIE",
+  "id": "1284082",
+  "marche": "Will the Democratic Party win the NC-13 House seat?",
+  "pari": "NON",
+  "prix": 0.235,
+  "montant": 3.01,
+  "pnl": -4.48,
+  "detail": "Stop-loss : la position a perdu 4 $ sur 7 $ misés (seuil 50 %)."
+ },
+ {
+  "at": "2026-11-04T01:13:31Z",
+  "action": "SORTIE",
+  "id": "629324",
+  "marche": "Will the Democrats win the Florida governor race in 2026?",
+  "pari": "NON",
+  "prix": 0.9215,
+  "montant": 21.75,
+  "pnl": 6.76,
+  "detail": "Prise de bénéfice : +7 $ déjà captés sur 9 $ possibles (seuil 60 %)."
  }
 ]
