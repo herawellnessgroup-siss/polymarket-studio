@@ -3,7 +3,7 @@
  "cash": 967.99,
  "debut": "2026-10-30",
  "fin": "2026-11-30",
- "maj": "2026-11-10T23:44:16Z",
+ "maj": "2026-11-11T01:13:57Z",
  "valeur": 967.99,
  "pnl_total": -32.01,
  "pnl_realise": -32.01,
@@ -12,5 +12,5 @@
  "ouvertes": 0,
  "soldees": 6,
  "gagnees": 2,
- "jours_restants": 20
+ "jours_restants": 19
 }
